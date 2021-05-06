@@ -776,7 +776,7 @@ Anders uitgedrukt: `temperatuur <= 0` (zie vorig hoofdstuk).
 
 2.  Je voegt volgende regels toe:
 
-    ``` {.python lastline="4"}
+    ``` {.python}
     temperatuur = float(input("Temperatuur: "))
     if temperatuur <= 0:
         print("Het vriest.")
@@ -1295,7 +1295,7 @@ Je maakt de functies `ingredientenTonen()` en `bereidingTonen()`.\
 Je maakt een nieuw bestand [pannenkoeken.py]{.sans-serif}. Je maakt de
 functie `bereidingTonen()`:
 
-``` {.python lastline="13"}
+``` {.python}
 def ingredientenTonen():
     print("INGREDIËNTEN:")
     print("250 gram zelfrijzende bloem")
@@ -1546,7 +1546,7 @@ De functie geeft als resultaat het grootste van de twee getallen terug.\
 Het hoofdprogramma beslist wat er met dit resultaat gebeurt.\
 Je maakt een nieuw bestand [grootste.py]{.sans-serif}:
 
-``` {.python lastline="9"}
+``` {.python}
 def grootste(getal1, getal2):
     if getal1 > getal2:
         grootste = getal1
@@ -1564,7 +1564,7 @@ Je roept in het hoofdprogramma de functie op, Je toont het resultaat op
 het scherm.\
 Je voegt volgende regels toe aan je programma:
 
-``` {.python firstline="10"}
+``` {.python}
 grootsteGetal = grootste(float(input("Getal 1: ")), float(input("Getal 2: ")))
 print("Het kwadraat van het grootste getal is ", grootsteGetal**2)
 ```
@@ -1665,7 +1665,7 @@ Element wijzigen
 Je maakt een nieuw bestand [werknemers.py]{.sans-serif}.\
 Je maakt een array met de namen van de werknemers van een firma.
 
-``` {.python lastline="1"}
+``` {.python}
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 ```
 
@@ -1674,7 +1674,7 @@ Olga Obama.\
 Je voegt een regel toe om het tweede element van de array te vervangen.
 Dit element heeft als index 1.
 
-``` {.python lastline="2"}
+``` {.python}
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 werknemers[1] = "Olga Obama"
 ```
@@ -1857,7 +1857,7 @@ return waarde.\
 Je maakt volgend programma om dit te proberen:
 [lengtestring.py]{.sans-serif}:
 
-``` {.python lastline="3"}
+``` {.python}
 voornaam = input("Voornaam: ")
 aantalTekens = len(voornaam)
 print("Aantal tekens in je voornaam: ", aantalTekens)
@@ -2017,7 +2017,7 @@ Je maakt een nieuw bestand [tweedimensionaal.py]{.sans-serif}.\
 Je maakt een variabele `e`n vult die met een tweedimensionale array van
 2 rijen en 3 kolommen, gevuld met 0.
 
-``` {.python firstline="3" lastline="3"}
+``` {.python}
 getallen = [[0 for x in range(3)] for y in range(2)]
 ```
 
@@ -2038,7 +2038,7 @@ Een element invullen
 Je voegt een regel toe. Je vult daarmee het element op rij 1, kolom 2
 met het getal 7.
 
-``` {.python firstline="5" lastline="5"}
+``` {.python}
 getallen[1][2] = 7
 ```
 
@@ -2048,7 +2048,7 @@ Een element lezen
 Je voegt een regel toe. Je leest daarme de waarde van het element op rij
 1, kolom 2, en toont het op het scherm.
 
-``` {.python firstline="6" lastline="6"}
+``` {.python}
 print(getallen[1][2])
 ```
 
@@ -2065,7 +2065,7 @@ De tweede `for` itereert dus *per rijnummer* over de kolomnummers.\
 In de tweede `for` vul je het element met het rijnummer en kolomnummer
 met een willekeurig getal tussen 1 en 10.
 
-``` {.python firstline="8" lastline="10"}
+``` {.python}
 for rijIndex in range(2):
     for kolomIndex in range(3):
         getallen[rijIndex][kolomIndex] = random.randint(1, 10)
@@ -2083,7 +2083,7 @@ Als de string gevuld is, toon je deze op het scherm.\
 Je herhaalt dit voor elke rij. Zo komen de verschillende rijen onder
 elkaar.
 
-``` {.python firstline="11" lastline="17"}
+``` {.python}
 for rij in getallen:
     rijString = ""
     for element in rij:
@@ -2104,7 +2104,7 @@ rijen en vijf kolommen.\
 De functie vult elk element met een willekeurig getal tussen 1 en 10. de
 functie returnt de array.
 
-``` {.python firstline="1" lastline="9"}
+``` {.python}
 import random
 
 
@@ -2123,7 +2123,7 @@ Je voegt een tweede functie toe. De functie krijgt een tweedimensionale
 array binnen als parameter.\
 De functie toont alle elementen van de array.
 
-``` {.python firstline="11" lastline="21"}
+``` {.python}
 def toonArray(eenArray):
     for rij in eenArray:
         rijString = ""
