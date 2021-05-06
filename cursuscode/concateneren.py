@@ -1,5 +1,0 @@
-print(True)
-print("Een.")
-print("Twee." + "Drie." + "Vier.")
-print("Vijf.")
-print("Zes.", 7, "Acht.")

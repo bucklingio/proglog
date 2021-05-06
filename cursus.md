@@ -64,7 +64,7 @@ Er verschijnt een lijst met mogelijke extensies die je in VSCode kan
 installeren.\
 Je zoekt de extensie 'Python' in het zoekveld.
 
-![image](images/python-extension-marketplace.png){width="10cm"}
+![image](images/python-extension-marketplace.png)
 
 Je installeert de extensie door op de knop 'Install' te klikken. Je
 herstart daarna VSCode.
@@ -84,7 +84,7 @@ Je navigeert naar de folder die je aangemaakt hebt.\
 Je kan nu nieuwe bestanden aanmaken in VSCode via de keuze [File - New
 File]{.sans-serif} of met de knop in de navigatiepaneel.
 
-![image](images/toolbar-new-file.png){width="10cm"}
+![image](images/new-file.png)
 
 Je maakt nu een nieuw bestand aan met de naam [plezant.py]{.sans-serif}
 .\
