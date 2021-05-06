@@ -40,7 +40,7 @@ De Python interpreter
 ---------------------
 
 Je downloadt de Python interpreter via de website
-`https://www.python.org/`.\
+[https://www.python.org/](https://www.python.org/).\
 Je downloadt de meest recente versie.\
 Je vindt het gedownloade bestand terug in je Downloads folder.\
 Je installeert de Python interpreter door op het gedownloade bestand te
@@ -49,7 +49,7 @@ dubbelklikken.
 Visual Studio Code
 ------------------
 
-Je downloadt VSCode via de website `https://code.visualstudio.com/`.\
+Je downloadt VSCode via de website [https://code.visualstudio.com/](https://code.visualstudio.com/).\
 Je vindt het gedownloade bestand terug in je Downloads folder.\
 Je installeert VSCode door op het gedownloade bestand te dubbelklikken.
 
@@ -92,7 +92,7 @@ Je maakt nu een nieuw bestand aan met de naam _plezant.py_
 .\
 Alle Python bestanden hebben de extensie _.py_ .
 
-[Opgepast:]{.ul} VSCode zal je waarschuwen dat verschillende bijkomende
+**Opgepast:** VSCode zal je waarschuwen dat verschillende bijkomende
 extensies nog niet geïnstalleerd zijn. Je accepteert de installatie van
 deze extensies. Deze gaan je helpen met het schrijven van je programma
 en het opsporen van fouten.
@@ -100,12 +100,12 @@ en het opsporen van fouten.
 Eerste regel
 ------------
 
-Je programma zal volgende tekst op het scherm tonen:
-
-        Programmeren
-        is
-        plezant 
-
+Je programma zal volgende tekst op het scherm tonen
+```
+Programmeren
+is
+plezant 
+```
 Dit programma zal bestaan uit 3 regels (instructies):
 
 1.  Een regel die de tekst `Programmeren` toont.
@@ -115,9 +115,9 @@ Dit programma zal bestaan uit 3 regels (instructies):
 3.  Een regel die de tekst `plezant` toont.
 
 Je tikt nu de eerste regel in je bestand:
-
-    print("Programmeren")
-
+```python
+print("Programmeren")
+```
 Bewaren
 -------
 
@@ -139,9 +139,8 @@ klikken.
 
 Je ziet nu de uitvoer van je programma in het Terminal venster
 onderaan.\
-[Tip:]{.ul} Als je een programma voortijdig wil stoppen, of je programma
-loopt vast, kan je het altijd onderbreken met de toetsencombinatie _Crtl
-+ C_.
+**Tip:** Als je een programma voortijdig wil stoppen, of je programma
+loopt vast, kan je het altijd onderbreken met de toetsencombinatie _Crtl + C_.
 
 Afwerken
 --------
@@ -149,28 +148,28 @@ Afwerken
 Je breidt het programma uit.\
 Je toont ook de tekst 'is'.\
 Je tikt volgende regel onderaan je programma:
-
-    print("is")
-
+```python
+print("is")
+```
 Je breidt het programma verder uit.\
 Je toont ook de tekst 'plezant'.\
 Je voegt volgende regel toe aan je programma:
-
-    print("plezant")
-
+```python
+print("plezant")
+```
 Je programma ziet er nu zo uit:
-
-    print("Programmeren")
-    print("is")
-    print("plezant")
-
+```python
+print("Programmeren")
+print("is")
+print("plezant")
+```
 Je bewaart je programma en voert het uit. Je ziet de uitvoer in je
 Terminal scherm:
-
-        Programmeren
-        is
-        plezant
-
+```
+Programmeren
+is
+plezant
+```
 Taak
 ----
 
@@ -231,9 +230,9 @@ Je begint met een eenvoudig programma dat het getal `3.14` toont:
     _rekenen.py_
 
 2.  Je voegt volgende regel toe:
-
-            print(3.14)
-
+```python
+print(3.14)
+```
 3.  Je bewaart je bestand en voert het uit. Je programma toont `3.14` in
     het terminalvenster onderaan.
 
@@ -257,10 +256,9 @@ Je kan in Python (onder andere) deze standaardbewerkingen gebruiken:
 
 Je breidt je programma uit. Je toont het resultaat van 5 x 3.\
 Je voegt daarvoor volgende regel toe aan je programma:
-
-    (*\textcolor{gray}{print(3.14)}*)
-    print(5 * 3)
-
+```python
+print(5 * 3)
+```
 Je programma toont `3.14` en daaronder `15` .
 
 Modulo
@@ -273,18 +271,23 @@ deelt door 5 is de rest 3.\
 deling is 3 : 13 - (5 x 2).\
 Je voegt volgende regel toe aan je programma:
 
-    ...
-    (*\textcolor{gray}{print(5 * \ 3)}*)
-    print(13 % 5)
-
-Je programma toont `3` onder de eerste twee uitvoerregels.
+```python
+print(13 % 5)
+```
+Je programma toont `3` onder de eerste twee uitvoerregels.\
+Je programma ziet er nu zo uit:
+```python
+print(3.14)
+print(5 * 3)
+print(13 % 5)
+```
 
 ![image](images/hardhat.png) Vermenigvuldigen: zie takenbundel.
 
 Meerdere bewerkingen
 ====================
 
-Je opent het programma met de naam _rekenen_ .\
+Je opent het programma met de naam _rekenen.py_ .\
 Een berekening bevat soms *meerdere* bewerkingen.\
 Voorbeeld: _2 + 3 x 4_ bevat een + bewerking en een x
 bewerking.\
@@ -304,7 +307,8 @@ Daarna telt je programma 2 op bij 12 (de uitkomst van _3 x
 4_).\
 Het eindresultaat bij de berekening is dus 14.\
 Je wil soms *zelf* bepalen dat een bewerking *voor* een andere bewerking
-wordt uitgevoerd.\
+wordt uitgevoerd.
+
 Voorbeeld: je wil bij _2 + 3 x 4_ eerst de + uitvoeren,
 daarna de x.\
 Je drukt dit in wiskunde uit met ronde haakjes: _(2 + 3) x
@@ -312,16 +316,17 @@ Je drukt dit in wiskunde uit met ronde haakjes: _(2 + 3) x
 Bewerkingen tussen ronde haakjes worden eerst uitgevoerd.\
 Het resultaat is 20: eerst _2 + 3_, daarna dit resultaat
 _(5) x 4_.\
-Je drukt dit in Python op dezelfde manier uit.\
+Je drukt dit in Python op dezelfde manier uit.
+
 Je voegt volgende regels toe aan je programma:
-
-    ...
-    (*\textcolor{gray}{print(13 \% \ 5)}*)
-    print(2 + 3 * 4)
-    print((2 + 3) * 4)
-
+```python
+...
+print(2 + 3 * 4)
+print((2 + 3) * 4)
+```
 Je bewaart en voert het programma uit. In je uitvoer zie je onderaan de
-getallen 14 en 20.\
+getallen 14 en 20.
+
 ![image](images/hardhat.png) Percentage: zie takenbundel.
 
 Variabelen
@@ -378,41 +383,48 @@ Je maakt het programma.
 
 2.  Je maakt een variabele aan met de naam `voornaam` en de waarde
     `"Mia"`. Je schrijft dit op volgende manier in Python.
-
-                voornaam = "Mia"
-
+```python
+voornaam = "Mia"
+```
 3.  Je maakt een variabele aan met de naam `aantalKinderen` en de waarde
     `3`.
 
 4.  Je maakt een variabele aan met de naam `gehuwd` en de waarde `True`.
-
-            (*\textcolor{gray}{voornaam = "Mia"}*)
-            aantalKinderen = 3
-            gehuwd = True
-
+```python
+...
+aantalKinderen = 3
+gehuwd = True
+```
 5.  Je toont nu de waarde van de variabele `voornaam` in het
     uitvoerscherm.
-
-            ...
-            (*\textcolor{gray}{gehuwd = True}*)
-            print(voornaam)
-
+```python
+...
+print(voornaam)
+```
 6.  Je toont ook de waarden van de variabelen `aantalKinderen` en
     `gehuwd`.
-
-            ...
-            (*\textcolor{gray}{print(voornaam)}*)
-            print(aantalKinderen)
-            print(gehuwd)
-
+```python
+...
+print(aantalKinderen)
+print(gehuwd)
+```
 7.  Je bewaart en voert uit.
 
 Je ziet volgende uitvoer in het terminalvenster:
-
-        Mia
-        3
-        true
-
+```python
+Mia
+3
+true
+```
+Je programma ziet er nu zo uit:
+```python
+voornaam = "Mia"
+aantalKinderen = 3
+gehuwd = True
+print(voornaam)
+print(aantalKinderen)
+print(gehuwd)
+```
 ![image](images/hardhat.png) Film: zie takenbundel.
 
 Wijzigen
@@ -424,20 +436,19 @@ Voorbeeld: Mia krijgt nog een kind: het aantal kinderen wijzigt van 3
 naar 4.\
 Je opent het programma _persoon.py_. Je voegt onderaan
 volgende regel toe:
-
-    ...
-    (*\textcolor{gray}{print(gehuwd)}*)
-    aantalKinderen = 4
-    print(aantalKinderen)
-
+```python
+...
+aantalKinderen = 4
+print(aantalKinderen)
+```
 Je bewaart en voert uit. Je ziet volgende uitvoer in het
 terminalvenster:
-
-        Mia
-        3
-        True
-        4
-
+```
+Mia
+3
+True
+4
+```
 Gebruik in een berekening
 -------------------------
 
@@ -453,15 +464,15 @@ Je kan het resultaat van de berekening:
 
 Je kiest hier voor het rechtstreeks tonen. Voeg volgende regel toe aan
 je programma:
-
-    ...
-    (*\textcolor{gray}{print(aantalKinderen)}*)
-    print(aantalKinderen * 120)
-
+```
+...
+print(aantalKinderen * 120)
+```
 Je bewaart en voert uit. Je ziet nu volgende uitvoer onderaan in het
 terminalvenster:
-
-        480
+```
+480
+```
 
 ![image](images/hardhat.png) Lotto: zie takenbundel.
 
@@ -492,11 +503,10 @@ Om het programma flexibel te maken
 Je doet dit als voorbeeld met de voornaam:
 
 1.  je vervangt de regel `voornaam = "Mia"` door volgende regel:
-
-            voornaam = input()
-            (*\textcolor{gray}{aantalKinderen = 3}*)
-            ...
-
+    ```python
+    voornaam = input()
+    ...
+    ```
     De instructie `input()` laat je toe informatie te tikken in het
     terminalscherm. Python bewaart de invoer daarna in de variabele
     `voornaam`.
@@ -504,24 +514,25 @@ Je doet dit als voorbeeld met de voornaam:
 2.  Wanneer de gebruiker de tekst intikt kan je hem uitleggen wat hij
     moet tikken. Deze uitleg zet je tussen de haakjes van `input()`. Je
     past de regel aan:
-
-            voornaam = input("Wat is je voornaam? ")
-            (*\textcolor{gray}{aantalKinderen = 3}*)
-            ...
-
+    ```python
+    voornaam = input("Wat is je voornaam? ")
+    ...
+    ```
 Je bewaart en voert uit. De gebruiker kan nu zijn voornaam intikken. Als
 hij de voornaam _Piet_ intikt, zie je dat de variabele
 `voornaam` de tekst _Piet_ bevat:
+```
+Piet
+3
+True
+4
+480
+```
+Je vraagt ook het aantal kinderen aan de gebruiker.
 
-        Piet
-        3
-        True
-        4
-        480
+**Opgepast!** Het type van de functie `input()` is **altijd** een
+string.
 
-Je vraagt ook het aantal kinderen aan de gebruiker.\
-[Opgepast!]{.ul} Het type van de functie `input()` is **altijd** een
-string.\
 Als je met je invoer wil rekenen, moet je de invoer omzetten naar een
 getal.\
 Je kan hiervoor de functie `int()` gebruiken voor gehele getallen, en
@@ -529,12 +540,11 @@ Je kan hiervoor de functie `int()` gebruiken voor gehele getallen, en
 Je probeert dit hier al uit, ook al gaan we met de invoer niet rekenen.
 
 1.  Je vervangt de regel `aantalKinderen = 3` door volgende regel:
-
-            ...
-            (*\textcolor{gray}{voornaam = input("Wat is je voornaam?")}*)
-            aantalKinderen = int(input("Hoeveel kinderen heb je?"))
-            ...
-
+```python
+...
+aantalKinderen = int(input("Hoeveel kinderen heb je?"))
+...
+```
 2.  Je verwijdert de regel `aantalKinderen = 4`.
 
 Je bewaart en voert uit.
@@ -552,25 +562,25 @@ Voorbeeld: Je hebt drie kinderen. Je onthoudt dit in een variabele
 Als nog een tweeling geboren wordt, verhoog je de variabele met twee.\
 Je creëert een nieuw bestand _tweeling.py_. Je voert
 volgende regels in:
-
-    aantalKinderen = 3
-    aantalKinderen = aantalKinderen + 2
-    print(aantalKinderen)
-
+```
+aantalKinderen = 3
+aantalKinderen = aantalKinderen + 2
+print(aantalKinderen)
+```
 Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
-
-        5
-
+```
+5
+```
 Je kan de waarde van een berekening met een variabele, weer in dezelfde
 variabele stoppen.\
 Er bestaat ook een kortere schrijfwijze.\
 Je vervangt de regel `aantalKinderen = aantalKinderen + 2` door volgende
 regel:
-
-    (*\textcolor{gray}{aantalKinderen = 3}*)
-    aantalKinderen += 2
-    (*\textcolor{gray}{print(aantalKinderen)}*)
-
+```
+...
+aantalKinderen += 2
+...
+```
 Je bewaart en voert uit. Je krijgt dezelfde uitvoer te zien.\
 Je kan deze schrijfwijze ook toepassen op delen (`/=`), vermenigvuldigen
 (`*=`), en aftrekken (`-=`).
@@ -802,8 +812,7 @@ VSCode zet deze regels meestal automatisch naar rechts.\
 Om daarna terug naar het normale programmaverloop te gaan, moeten de
 volgende regels weer naar links staan.\
 Dit moet je zelf doen. Je kan dit doen met de toets
-_Backspace_ of de toetsencombinatie _Shift +
-Tab_.\
+_Backspace_ of de toetsencombinatie _Shift + Tab_.\
 Je voegt volgende regel toe aan het programma:
 
         ...
