@@ -80,11 +80,11 @@ Voorbereiding
 Je zal al je programma's maken in één folder op je computer.\
 Je maakt een folder 'Python' aan in een folder naar jouw keuze (bv. je
 Documents-folder).\
-Je opent VSCode en kiest linksboven - [File - Open
-Folder...]{.sans-serif}\
+Je opent VSCode en kiest linksboven - _File - Open
+Folder..._\
 Je navigeert naar de folder die je aangemaakt hebt.\
-Je kan nu nieuwe bestanden aanmaken in VSCode via de keuze [File - New
-File]{.sans-serif} of met de knop in de navigatiepaneel.
+Je kan nu nieuwe bestanden aanmaken in VSCode via de keuze _File - New
+File_ of met de knop in de navigatiepaneel.
 
 ![image](images/new-file.png)
 
@@ -140,8 +140,8 @@ klikken.
 Je ziet nu de uitvoer van je programma in het Terminal venster
 onderaan.\
 [Tip:]{.ul} Als je een programma voortijdig wil stoppen, of je programma
-loopt vast, kan je het altijd onderbreken met de toetsencombinatie [Crtl
-+ C]{.sans-serif}.
+loopt vast, kan je het altijd onderbreken met de toetsencombinatie _Crtl
++ C_.
 
 Afwerken
 --------
@@ -226,8 +226,8 @@ Getallen
 
 Je begint met een eenvoudig programma dat het getal `3.14` toont:
 
-1.  Je creëert in VSCode een nieuw bestand met [File - New
-    File]{.sans-serif} of _Ctrl + N_. Je noemt dit bestand
+1.  Je creëert in VSCode een nieuw bestand met _File - New
+    File_ of _Ctrl + N_. Je noemt dit bestand
     _rekenen.py_
 
 2.  Je voegt volgende regel toe:
@@ -300,15 +300,15 @@ Je programma voert sommige bewerkingen uit *voor* andere bewerkingen.
 
 In het voorbeeld _2 + 3 x 4_ voert je programma dus eerst
 _3 x 4_ uit.\
-Daarna telt je programma 2 op bij 12 (de uitkomst van [3 x
-4]{.sans-serif}).\
+Daarna telt je programma 2 op bij 12 (de uitkomst van _3 x
+4_).\
 Het eindresultaat bij de berekening is dus 14.\
 Je wil soms *zelf* bepalen dat een bewerking *voor* een andere bewerking
 wordt uitgevoerd.\
 Voorbeeld: je wil bij _2 + 3 x 4_ eerst de + uitvoeren,
 daarna de x.\
-Je drukt dit in wiskunde uit met ronde haakjes: [(2 + 3) x
-4]{.sans-serif}.\
+Je drukt dit in wiskunde uit met ronde haakjes: _(2 + 3) x
+4_.\
 Bewerkingen tussen ronde haakjes worden eerst uitgevoerd.\
 Het resultaat is 20: eerst _2 + 3_, daarna dit resultaat
 _(5) x 4_.\
@@ -768,8 +768,8 @@ Voorbeeld
 Voorbeeld: De gebruiker tikt een temperatuur.\
 Je onthoudt dit getal in de variabele `temperatuur`.\
 Enkel als de temperatuur kleiner is of gelijk aan 0 toon je de tekst
-_Het vriest._ en de tekst [Je doet beter een dikke jas
-aan.]{.sans-serif}\
+_Het vriest._ en de tekst _Je doet beter een dikke jas
+aan._\
 Je merkt in de zin een vergelijking: temperatuur kleiner is of gelijk
 aan 0.\
 Anders uitgedrukt: `temperatuur <= 0` (zie vorig hoofdstuk).
@@ -802,8 +802,8 @@ VSCode zet deze regels meestal automatisch naar rechts.\
 Om daarna terug naar het normale programmaverloop te gaan, moeten de
 volgende regels weer naar links staan.\
 Dit moet je zelf doen. Je kan dit doen met de toets
-_Backspace_ of de toetsencombinatie [Shift +
-Tab]{.sans-serif}.\
+_Backspace_ of de toetsencombinatie _Shift +
+Tab_.\
 Je voegt volgende regel toe aan het programma:
 
         ...
