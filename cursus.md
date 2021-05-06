@@ -776,7 +776,7 @@ Anders uitgedrukt: `temperatuur <= 0` (zie vorig hoofdstuk).
 
 2.  Je voegt volgende regels toe:
 
-    ``` python
+    ```python
     temperatuur = float(input("Temperatuur: "))
     if temperatuur <= 0:
         print("Het vriest.")
@@ -913,7 +913,7 @@ voorwaarden waar (True) is.\
 Je maakt dit programma. Je maakt een nieuw bestand
 [prijs.py]{.sans-serif}. Je schrijft volgende regels:
 
-``` python
+```python
 leeftijd = int(input("Leeftijd: "))
 if leeftijd < 7 or leeftijd > 80:
     print("Prijs: €5")
@@ -968,7 +968,7 @@ underlineVoorbeeld 1: een BMI van 15.
 Je maakt een nieuw bestand aan met de naam [bmi.py]{.sans-serif} . Je
 schrijft volgende regels:
 
-``` python
+```python
 gewicht = float(input("Gewicht in kilogram: "))
 lengte = float(input("Lengte in meter: "))
 bmi = gewicht / lengte ** 2
@@ -999,7 +999,7 @@ tekst te tonen.\
 Je maakt een nieuw bestand [thuis.py]{.sans-serif}. Je schrijft volgende
 regels:
 
-``` python
+```python
 temperatuur = float(input("Temperatuur: "))
 if temperatuur <= 0:
     if temperatuur < -40:
@@ -1116,7 +1116,7 @@ Je toont dan het aantal volwassenen en het aantal kinderen.\
 Je maakt een nieuw bestand [pretpark.py]{.sans-serif}. Je schrijft
 volgende regels:
 
-``` python
+```python
 aantalVolwassenen = 0
 aantalKinderen = 0
 leeftijd = int(input("Leeftijd (0 om te stoppen): "))
@@ -1213,7 +1213,7 @@ Als de landcode `FR` is, toon je de tekst `Frankrijk`.\
 Je maakt een nieuw bestand [landcodes.py]{.sans-serif} . Je schrijft
 volgende instructies:
 
-``` python
+```python
 landCode = input("Landcode: ")
 if landCode == "BE":
     print("België")
@@ -1295,7 +1295,7 @@ Je maakt de functies `ingredientenTonen()` en `bereidingTonen()`.\
 Je maakt een nieuw bestand [pannenkoeken.py]{.sans-serif}. Je maakt de
 functie `bereidingTonen()`:
 
-``` python
+```python
 def ingredientenTonen():
     print("INGREDIËNTEN:")
     print("250 gram zelfrijzende bloem")
@@ -1330,7 +1330,7 @@ uitvoert.\
 Je programma ziet er nu zo uit (je ziet duidelijk da het programma twee
 onderdelen bevat):
 
-``` python
+```python
 def ingredientenTonen():
     print("INGREDIËNTEN:")
     print("250 gram zelfrijzende bloem")
@@ -1387,7 +1387,7 @@ Je toont in die functie `Even` als het getal even is. Anders toon je
 Je maakt een nieuw bestand [evenoneven.py]{.sans-serif}. Je schrijft
 volgend programma:
 
-``` python
+```python
 def evenOneven():
     if getal % 2 == 0:
         print("Even")
@@ -1408,7 +1408,7 @@ Je roept daarna in de functie `ajuinSoep()` een functie `bereiding()`
 op.\
 Je maakt een nieuw bestand [ajuinsoep.py]{.sans-serif}:
 
-``` python
+```python
 def ingredienten():
     print("INGREDIËNTEN:")
     print("6 uien")
@@ -1501,7 +1501,7 @@ De eerste parameter is het *teken* waarmee je de lijn tekent.\
 De tweede parameter is het *aantal* tekens in de lijn.\
 Je maakt het bestand [tekenlijn.py]{.sans-serif}:
 
-``` python
+```python
 def tekenLijn(teken, aantal):
     lijn = ""
     for i in range(1, aantal + 1):
@@ -1546,7 +1546,7 @@ De functie geeft als resultaat het grootste van de twee getallen terug.\
 Het hoofdprogramma beslist wat er met dit resultaat gebeurt.\
 Je maakt een nieuw bestand [grootste.py]{.sans-serif}:
 
-``` python
+```python
 def grootste(getal1, getal2):
     if getal1 > getal2:
         grootste = getal1
@@ -1564,7 +1564,7 @@ Je roept in het hoofdprogramma de functie op, Je toont het resultaat op
 het scherm.\
 Je voegt volgende regels toe aan je programma:
 
-``` python
+```python
 grootsteGetal = grootste(float(input("Getal 1: ")), float(input("Getal 2: ")))
 print("Het kwadraat van het grootste getal is ", grootsteGetal**2)
 ```
@@ -1637,7 +1637,7 @@ Je maakt een programma dat
 
 Je maakt een nieuw bestand [voornamen.py]{.sans-serif}:
 
-``` python
+```python
 voornamen = ["Ann", "Jos", "Mia"]
 print(voornamen[0])
 ```
@@ -1650,7 +1650,7 @@ gevolgd door de index van het element tussen vierkante haakjes.
 
 Je wijzigt het programma. Je vraagt een volgnummer aan de gebruiker:
 
-``` python
+```python
 voornamen = ["Ann", "Jos", "Mia"]
 index = int(input("Volgnummer: "))
 if index >= 0 and index <= 2:
@@ -1665,7 +1665,7 @@ Element wijzigen
 Je maakt een nieuw bestand [werknemers.py]{.sans-serif}.\
 Je maakt een array met de namen van de werknemers van een firma.
 
-``` python
+```python
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 ```
 
@@ -1674,7 +1674,7 @@ Olga Obama.\
 Je voegt een regel toe om het tweede element van de array te vervangen.
 Dit element heeft als index 1.
 
-``` python
+```python
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 werknemers[1] = "Olga Obama"
 ```
@@ -1682,7 +1682,7 @@ werknemers[1] = "Olga Obama"
 Je toont daarna dit element op het scherm. Je programma ziet er als
 volgt uit:
 
-``` python
+```python
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 werknemers[1] = "Olga Obama"
 print(werknemers[1])
@@ -1694,7 +1694,7 @@ gebruiker.\
 Je kan ook de naam van de nieuwe werknemer vragen aan de gebruiker.\
 Je wijzigt daartoe het programma:
 
-``` python
+```python
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 index = int(input("Volgnummer van de werknemer die met pensioen gaat: "))
 while index < 0 or index > 2:
@@ -1714,7 +1714,7 @@ elementen.\
 Je leert deze instructie kennen met een nieuw programma. Je maakt een
 nieuw bestand [for-in.py]{.sans-serif}
 
-``` python
+```python
 voornamen = ["Ann", "Jos", "Mia"]
 for voornaam in voornamen:
     print(voornaam)
@@ -1755,7 +1755,7 @@ Je herhaalt dit 20 keer via de `for` instructie. Je toont daarna de
 getallen op het scherm.\
 Je maakt een nieuw bestand [twintigelementen.py]{.sans-serif}:
 
-``` python
+```python
 import random
 
 getallen = []
@@ -1773,7 +1773,7 @@ gebruiker tikt 5 namen. Je vult daarmee de elementen van de array.\
 Je toont daarna de elementen op het scherm. Je maakt een nieuw bestand
 [vijfvoornamen.py]{.sans-serif} .
 
-``` python
+```python
 voornamen = []
 
 for i in range(5):
@@ -1806,7 +1806,7 @@ Je roept daarna de functie nog eens op met en array vaan steden in
 Wallonië.\
 Je maakt een nieuw bestand [steden.py]{.sans-serif} .
 
-``` python
+```python
 def toonSteden(steden):
     for stad in steden:
         print(stad)
@@ -1824,7 +1824,7 @@ Je voegt een functie toe aan [steden.py]{.sans-serif}\
 Die geeft een array terug met de grootste steden van Nederland.\
 Je roept deze functie op als parameter van de functie `toonSteden()`.
 
-``` python
+```python
 def toonSteden(steden):
     for stad in steden:
         print(stad)
@@ -1857,7 +1857,7 @@ return waarde.\
 Je maakt volgend programma om dit te proberen:
 [lengtestring.py]{.sans-serif}:
 
-``` python
+```python
 voornaam = input("Voornaam: ")
 aantalTekens = len(voornaam)
 print("Aantal tekens in je voornaam: ", aantalTekens)
@@ -1932,7 +1932,7 @@ Voorbeeld: Je toont de hoofdletters in het alfabet. Je moet dus de
 letters tonen die horen bij de getallen 65 tot en met 90.\
 Je maakt een nieuw bestand [alfabet.py]{.sans-serif}:
 
-``` python
+```python
 for i in range(65, 91):
     print(chr(i))
 ```
@@ -1953,7 +1953,7 @@ string.\
 Je toont daarna die string op het scherm: `AAP`. Je maakt een nieuw
 bestand [hoofdletters.py]{.sans-serif}:
 
-``` python
+```python
 woord = input("Woord in kleine letters: ")
 hoofdletterWoord = ""
 
@@ -2017,7 +2017,7 @@ Je maakt een nieuw bestand [tweedimensionaal.py]{.sans-serif}.\
 Je maakt een variabele `e`n vult die met een tweedimensionale array van
 2 rijen en 3 kolommen, gevuld met 0.
 
-``` python
+```python
 getallen = [[0 for x in range(3)] for y in range(2)]
 ```
 
@@ -2038,7 +2038,7 @@ Een element invullen
 Je voegt een regel toe. Je vult daarmee het element op rij 1, kolom 2
 met het getal 7.
 
-``` python
+```python
 getallen[1][2] = 7
 ```
 
@@ -2048,7 +2048,7 @@ Een element lezen
 Je voegt een regel toe. Je leest daarme de waarde van het element op rij
 1, kolom 2, en toont het op het scherm.
 
-``` python
+```python
 print(getallen[1][2])
 ```
 
@@ -2065,7 +2065,7 @@ De tweede `for` itereert dus *per rijnummer* over de kolomnummers.\
 In de tweede `for` vul je het element met het rijnummer en kolomnummer
 met een willekeurig getal tussen 1 en 10.
 
-``` python
+```python
 for rijIndex in range(2):
     for kolomIndex in range(3):
         getallen[rijIndex][kolomIndex] = random.randint(1, 10)
@@ -2083,7 +2083,7 @@ Als de string gevuld is, toon je deze op het scherm.\
 Je herhaalt dit voor elke rij. Zo komen de verschillende rijen onder
 elkaar.
 
-``` python
+```python
 for rij in getallen:
     rijString = ""
     for element in rij:
@@ -2104,7 +2104,7 @@ rijen en vijf kolommen.\
 De functie vult elk element met een willekeurig getal tussen 1 en 10. de
 functie returnt de array.
 
-``` python
+```python
 import random
 
 
@@ -2123,7 +2123,7 @@ Je voegt een tweede functie toe. De functie krijgt een tweedimensionale
 array binnen als parameter.\
 De functie toont alle elementen van de array.
 
-``` python
+```python
 def toonArray(eenArray):
     for rij in eenArray:
         rijString = ""
