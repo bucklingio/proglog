@@ -3,6 +3,8 @@
 Inleiding
 =========
 
+
+
 Inleiding
 ---------
 
@@ -1596,19 +1598,15 @@ in een array bedoelen.\
 Arrays worden in Python ook *lists* genoemd.\
 Je maakt als voorbeeld een variabele met de naam `voornamen`.\
 De variabele bevat drie elementen: `Ann`, `Jos` en `Mia`.\
-Je kan je de array zo voorstellen:
-
-   `Ann`   `Jos`   `Mia`
-  ------- ------- -------
 
 Elk element heeft een volgnummer. De nummering begint vanaf **0**.\
 Dit is wennen: je nummert als mens vanaf **1**!\
 Je ziet hier de array opnieuw, met boven elke element het volgnummer van
 dat element:
 
-     0       1       2
-  ------- ------- -------
-   `Ann`   `Jos`   `Mia`
+|0|1|2|
+|-|-|-|
+|Ann|Jos|Mia
 
 Programmeurs spreken over de *index* van een element als ze het
 volgnummer bedoelen.\
