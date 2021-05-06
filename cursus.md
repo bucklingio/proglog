@@ -88,9 +88,9 @@ File]{.sans-serif} of met de knop in de navigatiepaneel.
 
 ![image](images/new-file.png)
 
-Je maakt nu een nieuw bestand aan met de naam [plezant.py]{.sans-serif}
+Je maakt nu een nieuw bestand aan met de naam _plezant.py_
 .\
-Alle Python bestanden hebben de extensie [.py]{.sans-serif} .
+Alle Python bestanden hebben de extensie _.py_ .
 
 [Opgepast:]{.ul} VSCode zal je waarschuwen dat verschillende bijkomende
 extensies nog niet geïnstalleerd zijn. Je accepteert de installatie van
@@ -123,9 +123,9 @@ Bewaren
 
 Je kan je bestand op twee manieren bewaren:
 
--   Je kiest linksboven [File - Save]{.sans-serif}
+-   Je kiest linksboven _File - Save_
 
--   Je gebruikt de toetsencombinatie [Ctrl + S]{.sans-serif}
+-   Je gebruikt de toetsencombinatie _Ctrl + S_
 
 Je moet altijd je bestand bewaren voor je het uitvoert.
 
@@ -200,7 +200,7 @@ aanhalingstekens (' of \").\
 Als een firma 'Frituur Frida heet', schrijf je dat in je programma als
 `"Frituur Frida"`.\
 Je kan met tekst niet rekenen (optellen, vermenigvuldigen, ...).\
-We gebruiken in Python het woord [string]{.sans-serif} voor tekst.
+We gebruiken in Python het woord _string_ voor tekst.
 
 De prijs van een artikel en het loon van een bediende zijn getallen.\
 Getallen staan niet tussen aanhalingstekens.\
@@ -227,8 +227,8 @@ Getallen
 Je begint met een eenvoudig programma dat het getal `3.14` toont:
 
 1.  Je creëert in VSCode een nieuw bestand met [File - New
-    File]{.sans-serif} of [Ctrl + N]{.sans-serif}. Je noemt dit bestand
-    [rekenen.py]{.sans-serif}
+    File]{.sans-serif} of _Ctrl + N_. Je noemt dit bestand
+    _rekenen.py_
 
 2.  Je voegt volgende regel toe:
 
@@ -284,9 +284,9 @@ Je programma toont `3` onder de eerste twee uitvoerregels.
 Meerdere bewerkingen
 ====================
 
-Je opent het programma met de naam [rekenen]{.sans-serif} .\
+Je opent het programma met de naam _rekenen_ .\
 Een berekening bevat soms *meerdere* bewerkingen.\
-Voorbeeld: [2 + 3 x 4]{.sans-serif} bevat een + bewerking en een x
+Voorbeeld: _2 + 3 x 4_ bevat een + bewerking en een x
 bewerking.\
 Je programma voert sommige bewerkingen uit *voor* andere bewerkingen.
 
@@ -298,20 +298,20 @@ Je programma voert sommige bewerkingen uit *voor* andere bewerkingen.
 
 4.  Tenslotte optellen en aftrekken (`+` en `-`).
 
-In het voorbeeld [2 + 3 x 4]{.sans-serif} voert je programma dus eerst
-[3 x 4]{.sans-serif} uit.\
+In het voorbeeld _2 + 3 x 4_ voert je programma dus eerst
+_3 x 4_ uit.\
 Daarna telt je programma 2 op bij 12 (de uitkomst van [3 x
 4]{.sans-serif}).\
 Het eindresultaat bij de berekening is dus 14.\
 Je wil soms *zelf* bepalen dat een bewerking *voor* een andere bewerking
 wordt uitgevoerd.\
-Voorbeeld: je wil bij [2 + 3 x 4]{.sans-serif} eerst de + uitvoeren,
+Voorbeeld: je wil bij _2 + 3 x 4_ eerst de + uitvoeren,
 daarna de x.\
 Je drukt dit in wiskunde uit met ronde haakjes: [(2 + 3) x
 4]{.sans-serif}.\
 Bewerkingen tussen ronde haakjes worden eerst uitgevoerd.\
-Het resultaat is 20: eerst [2 + 3]{.sans-serif}, daarna dit resultaat
-[(5) x 4]{.sans-serif}.\
+Het resultaat is 20: eerst _2 + 3_, daarna dit resultaat
+_(5) x 4_.\
 Je drukt dit in Python op dezelfde manier uit.\
 Je voegt volgende regels toe aan je programma:
 
@@ -374,7 +374,7 @@ Je maakt een voorbeeld:
 Je maakt het programma.
 
 1.  Je maakt een nieuw bestaand aan met de naam
-    [persoon.py]{.sans-serif}.
+    _persoon.py_.
 
 2.  Je maakt een variabele aan met de naam `voornaam` en de waarde
     `"Mia"`. Je schrijft dit op volgende manier in Python.
@@ -422,7 +422,7 @@ Je kan de waarde van een variabele wijzigen (\"variabel\"). Je kan in de
 loop van je programma een andere waarde in je variabele plaatsen.\
 Voorbeeld: Mia krijgt nog een kind: het aantal kinderen wijzigt van 3
 naar 4.\
-Je opent het programma [persoon.py]{.sans-serif}. Je voegt onderaan
+Je opent het programma _persoon.py_. Je voegt onderaan
 volgende regel toe:
 
     ...
@@ -468,7 +468,7 @@ terminalvenster:
 Opvragen
 ========
 
-Je opent het bestand [persoon.py]{.sans-serif}. Het programma is niet
+Je opent het bestand _persoon.py_. Het programma is niet
 flexibel:
 
 -   De voornaam Mia staat in je programma. Als Piet het programma
@@ -510,8 +510,8 @@ Je doet dit als voorbeeld met de voornaam:
             ...
 
 Je bewaart en voert uit. De gebruiker kan nu zijn voornaam intikken. Als
-hij de voornaam [Piet]{.sans-serif} intikt, zie je dat de variabele
-`voornaam` de tekst [Piet]{.sans-serif} bevat:
+hij de voornaam _Piet_ intikt, zie je dat de variabele
+`voornaam` de tekst _Piet_ bevat:
 
         Piet
         3
@@ -550,7 +550,7 @@ verhogen of verlagen.\
 Voorbeeld: Je hebt drie kinderen. Je onthoudt dit in een variabele
 `aantalKinderen`.\
 Als nog een tweeling geboren wordt, verhoog je de variabele met twee.\
-Je creëert een nieuw bestand [tweeling.py]{.sans-serif}. Je voert
+Je creëert een nieuw bestand _tweeling.py_. Je voert
 volgende regels in:
 
     aantalKinderen = 3
@@ -584,14 +584,14 @@ Je gebruikt tot nu toe `print()` om iets op het scherm te tonen.\
 `print()` toont zijn informatie op het scherm en zorgt ervoor dat de
 volgende informatie op een nieuwe regel getoond wordt.\
 Je wil soms informatie *naast elkaar* tonen.\
-Je gebruikt dan het [+]{.sans-serif}-teken binnen de haakjes van de
+Je gebruikt dan het _+_-teken binnen de haakjes van de
 `print()` om verschillende stukken informatie naast elkaar te tonen.\
 Dit noemt men **concateneren**.
 
 Concateneren van strings
 ------------------------
 
-Je maakt een nieuw bestand [concateneren.py]{.sans-serif}. Je voert
+Je maakt een nieuw bestand _concateneren.py_. Je voert
 volgende regels in:
 
     print("Een.")
@@ -686,7 +686,7 @@ Getallen
 
 Je maakt een getal dat controleert of 5 groter is dan 3.
 
-1.  Je maakt een nieuw bestand [vergelijken.py]{.sans-serif}.
+1.  Je maakt een nieuw bestand _vergelijken.py_.
 
 2.  Je voegt volgende regel toe:
 
@@ -734,12 +734,12 @@ Strings
 Je kan ook strings vergelijken.\
 Een string is 'groter' dan een tweede string als de string alfabetisch
 *na* de tweede string komt.\
-De string [Benny]{.sans-serif} is bijvoorbeeld 'groter' dan de string
-[Agnetha]{.sans-serif}.\
+De string _Benny_ is bijvoorbeeld 'groter' dan de string
+_Agnetha_.\
 Een string is 'kleiner' dan een tweede string als de string alfabetisch
 *voor* de tweede string komt.\
-De string [appel]{.sans-serif} is bijvoorbeeld 'kleiner' dan de string
-[peer]{.sans-serif}.\
+De string _appel_ is bijvoorbeeld 'kleiner' dan de string
+_peer_.\
 Je voegt volgende regel toe aan je programma:
 
     ...
@@ -747,8 +747,8 @@ Je voegt volgende regel toe aan je programma:
     print("limonade" < "bier")
 
 Je bewaart en voert uit. De tweede uitvoer is `False`.\
-Het is onwaar (False) dat de string [limonade]{.sans-serif} alfabetisch
-voor de string [bier]{.sans-serif} komt.
+Het is onwaar (False) dat de string _limonade_ alfabetisch
+voor de string _bier_ komt.
 
 ![image](images/hardhat.png) Vergelijken: zie takenbundel.
 
@@ -768,13 +768,13 @@ Voorbeeld
 Voorbeeld: De gebruiker tikt een temperatuur.\
 Je onthoudt dit getal in de variabele `temperatuur`.\
 Enkel als de temperatuur kleiner is of gelijk aan 0 toon je de tekst
-[Het vriest.]{.sans-serif} en de tekst [Je doet beter een dikke jas
+_Het vriest._ en de tekst [Je doet beter een dikke jas
 aan.]{.sans-serif}\
 Je merkt in de zin een vergelijking: temperatuur kleiner is of gelijk
 aan 0.\
 Anders uitgedrukt: `temperatuur <= 0` (zie vorig hoofdstuk).
 
-1.  Je maakt een nieuw bestand [weer.py]{.sans-serif} .
+1.  Je maakt een nieuw bestand _weer.py_ .
 
 2.  Je voegt volgende regels toe:
 
@@ -802,7 +802,7 @@ VSCode zet deze regels meestal automatisch naar rechts.\
 Om daarna terug naar het normale programmaverloop te gaan, moeten de
 volgende regels weer naar links staan.\
 Dit moet je zelf doen. Je kan dit doen met de toets
-[Backspace]{.sans-serif} of de toetsencombinatie [Shift +
+_Backspace_ of de toetsencombinatie [Shift +
 Tab]{.sans-serif}.\
 Je voegt volgende regel toe aan het programma:
 
@@ -820,7 +820,7 @@ temperatuur lager is dan 0.
 Else
 ====
 
-Je opent het bestand [weer.py]{.sans-serif}. Je wil ook iets uitvoeren
+Je opent het bestand _weer.py_. Je wil ook iets uitvoeren
 als de voorwaarde bij `if` *niet waar* is.\
 Voorbeeld: je toont de tekst `Een lichte jas volstaat.` enkel als de
 temperatuur *niet* kleiner of gelijk is aan 0.\
@@ -844,7 +844,7 @@ zie je de tekst `Een lichte jas volstaat.`
 Meerdere If Blokken
 ===================
 
-Je opent het bestand [weer.py]{.sans-serif}. Je programma bevat zoveel
+Je opent het bestand _weer.py_. Je programma bevat zoveel
 `if` instructies als je nodig hebt.\
 Je breidt je programma uit: je vraagt aan de gebruiker of het zal
 regenen.\
@@ -868,8 +868,8 @@ Je bewaart en voert uit.
 OR en AND
 =========
 
-Je leert voorwaarden combineren met [Or]{.sans-serif} en met
-[And.]{.sans-serif}
+Je leert voorwaarden combineren met _Or_ en met
+_And._
 
 Or
 --
@@ -883,7 +883,7 @@ De eerste zin bevat *twee* voorwaarden:
 -   leeftijd hoger dan 80
 
 De voorwaarden worden gecombineerd met `or` (of).\
-Bij [or]{.sans-serif} is de combinatie waar (True) als één van de twee
+Bij _or_ is de combinatie waar (True) als één van de twee
 voorwaarden waar (True) is.\
 [Voorbeeld 1]{.ul}: een bezoeker met een leeftijd van 4 jaar.
 
@@ -913,7 +913,7 @@ voorwaarden waar (True) is.\
     bezoeker betaalt €10.
 
 Je maakt dit programma. Je maakt een nieuw bestand
-[prijs.py]{.sans-serif}. Je schrijft volgende regels:
+_prijs.py_. Je schrijft volgende regels:
 
 ```python
 leeftijd = int(input("Leeftijd: "))
@@ -967,7 +967,7 @@ underlineVoorbeeld 1: een BMI van 15.
 -   Omdat *alle* voorwaarden waar zijn, is de combinatie waar. Het
     gewicht is ok.
 
-Je maakt een nieuw bestand aan met de naam [bmi.py]{.sans-serif} . Je
+Je maakt een nieuw bestand aan met de naam _bmi.py_ . Je
 schrijft volgende regels:
 
 ```python
@@ -998,7 +998,7 @@ nog twee mogelijkheden:
 
 Je nest een `if-else` *binnen* de eerste `if` om de ene of de andere
 tekst te tonen.\
-Je maakt een nieuw bestand [thuis.py]{.sans-serif}. Je schrijft volgende
+Je maakt een nieuw bestand _thuis.py_. Je schrijft volgende
 regels:
 
 ```python
@@ -1051,7 +1051,7 @@ Je ziet volgend herhalend patroon: *zolang* (`while`) de gebruiker niet
 Je programma *herhaalt* deze stappen zoveel keer als er mensen een
 bedrag storten. Je programmeert zo'n herhaling met een nieuwe
 instructie: `while`. Je maakt een nieuw bestand
-[goededoel.py]{.sans-serif}.
+_goededoel.py_.
 
 1.  Je maakt een variabele met de naam `opbrengst`. Je initialiseert de
     variabele op 0. Je vraagt daarna aan de gebruiker een eerste
@@ -1115,7 +1115,7 @@ Anders vehoog je de variabele voor het aantal kinderen met 1.\
 Op het einde van de dag tikt de gebruiker `0` als leeftijd om het
 invoeren te stoppen.\
 Je toont dan het aantal volwassenen en het aantal kinderen.\
-Je maakt een nieuw bestand [pretpark.py]{.sans-serif}. Je schrijft
+Je maakt een nieuw bestand _pretpark.py_. Je schrijft
 volgende regels:
 
 ```python
@@ -1212,7 +1212,7 @@ Voorbeeld: De gebruiker tikt een landcode. Als de landcode `BE` is, toon
 je de tekst `België`.\
 Als de landcode `NL` is, toon je de tekst `Nederland`.\
 Als de landcode `FR` is, toon je de tekst `Frankrijk`.\
-Je maakt een nieuw bestand [landcodes.py]{.sans-serif} . Je schrijft
+Je maakt een nieuw bestand _landcodes.py_ . Je schrijft
 volgende instructies:
 
 ```python
@@ -1294,7 +1294,7 @@ delen bevat:
     Je plaatst de code die dit doet in een functie `bereidingTonen()`.
 
 Je maakt de functies `ingredientenTonen()` en `bereidingTonen()`.\
-Je maakt een nieuw bestand [pannenkoeken.py]{.sans-serif}. Je maakt de
+Je maakt een nieuw bestand _pannenkoeken.py_. Je maakt de
 functie `bereidingTonen()`:
 
 ```python
@@ -1386,7 +1386,7 @@ getal.\
 Je roept een functie op met de naam `evenOneven()`.\
 Je toont in die functie `Even` als het getal even is. Anders toon je
 `Oneven` .\
-Je maakt een nieuw bestand [evenoneven.py]{.sans-serif}. Je schrijft
+Je maakt een nieuw bestand _evenoneven.py_. Je schrijft
 volgend programma:
 
 ```python
@@ -1408,7 +1408,7 @@ Je maakt een voorbeeld. Je roept in het hoofdprogramma de functie
 Je roept in de functie `ajuinSoep()` een functie `ingredienten()` op.\
 Je roept daarna in de functie `ajuinSoep()` een functie `bereiding()`
 op.\
-Je maakt een nieuw bestand [ajuinsoep.py]{.sans-serif}:
+Je maakt een nieuw bestand _ajuinsoep.py_:
 
 ```python
 def ingredienten():
@@ -1442,7 +1442,7 @@ Je bewaart en voert uit.
 Parameter
 =========
 
-Je opent het bestand [evenoneven.py]{.sans-serif}.\
+Je opent het bestand _evenoneven.py_.\
 De functie is niet flexibel: ze kan enkel van de variabele `getal`
 zeggen of het even of oneven is.\
 Je voegt in het hoofdprogramma volgende regel toe:
@@ -1501,7 +1501,7 @@ parameters kan verschillen.\
 Voorbeeld: Je maakt een procedure die een lijn tekent.\
 De eerste parameter is het *teken* waarmee je de lijn tekent.\
 De tweede parameter is het *aantal* tekens in de lijn.\
-Je maakt het bestand [tekenlijn.py]{.sans-serif}:
+Je maakt het bestand _tekenlijn.py_:
 
 ```python
 def tekenLijn(teken, aantal):
@@ -1546,7 +1546,7 @@ Je maakt als voorbeeld een functie met de naam `grootste()`.\
 De functie heeft twee parameters, beide zijn getallen.\
 De functie geeft als resultaat het grootste van de twee getallen terug.\
 Het hoofdprogramma beslist wat er met dit resultaat gebeurt.\
-Je maakt een nieuw bestand [grootste.py]{.sans-serif}:
+Je maakt een nieuw bestand _grootste.py_:
 
 ```python
 def grootste(getal1, getal2):
@@ -1641,7 +1641,7 @@ Je maakt een programma dat
 
 2.  het element met index 0 op het scherm toont.
 
-Je maakt een nieuw bestand [voornamen.py]{.sans-serif}:
+Je maakt een nieuw bestand _voornamen.py_:
 
 ```python
 voornamen = ["Ann", "Jos", "Mia"]
@@ -1668,7 +1668,7 @@ Je bewaart en voert uit.
 Element wijzigen
 ----------------
 
-Je maakt een nieuw bestand [werknemers.py]{.sans-serif}.\
+Je maakt een nieuw bestand _werknemers.py_.\
 Je maakt een array met de namen van de werknemers van een firma.
 
 ```python
@@ -1718,7 +1718,7 @@ For in
 De instructie `for ... in` leest in een iteratie één per één alle array
 elementen.\
 Je leert deze instructie kennen met een nieuw programma. Je maakt een
-nieuw bestand [for-in.py]{.sans-serif}
+nieuw bestand _for-in.py_
 
 ```python
 voornamen = ["Ann", "Jos", "Mia"]
@@ -1759,7 +1759,7 @@ Je begint met een lege array `getallen`.\
 Je genereert een willekeurig getal, en voegt dit toe aan de array.\
 Je herhaalt dit 20 keer via de `for` instructie. Je toont daarna de
 getallen op het scherm.\
-Je maakt een nieuw bestand [twintigelementen.py]{.sans-serif}:
+Je maakt een nieuw bestand _twintigelementen.py_:
 
 ```python
 import random
@@ -1777,7 +1777,7 @@ for getal in getallen:
 Je maakt een tweede voorbeeld. Je maakt een lege array `voornamen`. De
 gebruiker tikt 5 namen. Je vult daarmee de elementen van de array.\
 Je toont daarna de elementen op het scherm. Je maakt een nieuw bestand
-[vijfvoornamen.py]{.sans-serif} .
+_vijfvoornamen.py_ .
 
 ```python
 voornamen = []
@@ -1810,7 +1810,7 @@ Je roept in het hoofdprogramma de procedure op met een array van steden
 in Vlaanderen.\
 Je roept daarna de functie nog eens op met en array vaan steden in
 Wallonië.\
-Je maakt een nieuw bestand [steden.py]{.sans-serif} .
+Je maakt een nieuw bestand _steden.py_ .
 
 ```python
 def toonSteden(steden):
@@ -1826,7 +1826,7 @@ Returnwaarde van functie
 ------------------------
 
 Een array kan ook de returnwaarde van een functie zijn.\
-Je voegt een functie toe aan [steden.py]{.sans-serif}\
+Je voegt een functie toe aan _steden.py_\
 Die geeft een array terug met de grootste steden van Nederland.\
 Je roept deze functie op als parameter van de functie `toonSteden()`.
 
@@ -1861,7 +1861,7 @@ De instructie `len()` geeft je het aantal tekens in een string.\
 Je geeft een string mee als parameter. Je krijgt het aantal tekens als
 return waarde.\
 Je maakt volgend programma om dit te proberen:
-[lengtestring.py]{.sans-serif}:
+_lengtestring.py_:
 
 ```python
 voornaam = input("Voornaam: ")
@@ -1936,7 +1936,7 @@ mee. Je krijgt als return waarde de letter terug die volgens Unicode bij
 dit getal hoort.\
 Voorbeeld: Je toont de hoofdletters in het alfabet. Je moet dus de
 letters tonen die horen bij de getallen 65 tot en met 90.\
-Je maakt een nieuw bestand [alfabet.py]{.sans-serif}:
+Je maakt een nieuw bestand _alfabet.py_:
 
 ```python
 for i in range(65, 91):
@@ -1957,7 +1957,7 @@ Je trekt van elk getal 32 af. Je bekomt de getallen 65, 65, 80. Je zet
 deze getallen om naar hun bijhorende tekens, en bewaart ze in een
 string.\
 Je toont daarna die string op het scherm: `AAP`. Je maakt een nieuw
-bestand [hoofdletters.py]{.sans-serif}:
+bestand _hoofdletters.py_:
 
 ```python
 woord = input("Woord in kleine letters: ")
@@ -2047,7 +2047,7 @@ Je kan in Python geen lege tweedimensionale array maken.\
 Als je een array van bepaalde afmetingen wil maken, ga je de array met
 elementen moeten vullen.\
 Je vult alle elementen van de array in dit voorbeeld met 0.\
-Je maakt een nieuw bestand [tweedimensionaal.py]{.sans-serif}.\
+Je maakt een nieuw bestand _tweedimensionaal.py_.\
 Je maakt een variabele `e`n vult die met een tweedimensionale array van
 2 rijen en 3 kolommen, gevuld met 0.
 
@@ -2132,7 +2132,7 @@ Returnwaarde in een functie
 ---------------------------
 
 Een tweedimensionale array kan de return waarde zijn van een functie.\
-Je maakt een nieuw bestand [tweedimfuncties.py]{.sans-serif}.\
+Je maakt een nieuw bestand _tweedimfuncties.py_.\
 Je maakt een functie `maakArray()`. De functie maakt een array van drie
 rijen en vijf kolommen.\
 De functie vult elk element met een willekeurig getal tussen 1 en 10. de
