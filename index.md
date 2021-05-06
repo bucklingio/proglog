@@ -1,0 +1,1 @@
+Ga hier naar de [cursus](./cursus.md)
