@@ -1597,16 +1597,24 @@ Programmeurs spreken over de *elementen* in een array als ze de waarden
 in een array bedoelen.\
 Arrays worden in Python ook *lists* genoemd.\
 Je maakt als voorbeeld een variabele met de naam `voornamen`.\
-De variabele bevat drie elementen: `Ann`, `Jos` en `Mia`.\
+De variabele bevat drie elementen: `Ann`, `Jos` en `Mia`.
 
 Elk element heeft een volgnummer. De nummering begint vanaf **0**.\
 Dit is wennen: je nummert als mens vanaf **1**!\
-Je ziet hier de array opnieuw, met boven elke element het volgnummer van
+Je ziet hier de array, met boven elk element het volgnummer van
 dat element:
-
-|0|1|2|
-|-|-|-|
-|Ann|Jos|Mia
+<table border="1">
+<tr>
+    <th>0</th>
+    <th>1</th>
+    <th>2</th>
+</tr>
+<tr>
+    <td>Ann</td>
+    <td>Jos</td>
+    <td>Mia</td>
+</tr>
+</table>
 
 Programmeurs spreken over de *index* van een element als ze het
 volgnummer bedoelen.\
@@ -1976,21 +1984,49 @@ rij met elementen.\
 Je maakt in dit hoofdstuk een tweedimensionale array.\
 Die bevat meerdere rijen. Elke rij bevat elementen.
 
-   `Ann`   `Jos`   `Mia`
-  ------- ------- -------
-   `Bas`   `Eva`   `Ben`
+   <table border="1">
+   <tr>
+    <td>Ann</td>
+    <td>Jos</td>
+    <td>Mia</td>
+</tr>
+<tr>
+    <td>Bas</td>
+    <td>Eva</td>
+    <td>Ben</td>
+</tr>
 
+</table>
 Om één element aan te duiden moet je de rij én de kolom van dat element
-aangeven.\
+aangeven.
+
 Zowel de nummering van de rijen als de nummering van de kolommen begint
-vanaf 0.\
+vanaf 0.
+
 Je ziet hier de array nog een keer, met de rijnummers (links) en de
 kolomnummers (beneden).
 
-   0   `Ann`   `Jos`   `Mia`
-  --- ------- ------- -------
-   1   `Bas`   `Eva`   `Ben`
-         0       1       2
+<table border="1">
+   <tr>
+   <th>0</th>
+    <td>Ann</td>
+    <td>Jos</td>
+    <td>Mia</td>
+</tr>
+<tr>
+<th>1</th>
+    <td>Bas</td>
+    <td>Eva</td>
+    <td>Ben</td>
+</tr>
+<tr>
+<td></td>
+    <th>0</th>
+    <th>1</th>
+    <th>2</th>
+</tr>
+</table>
+
 
 -   Ann bevindt zich op rij 0, kolom 0.
 
