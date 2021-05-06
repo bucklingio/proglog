@@ -1583,7 +1583,7 @@ en op het scherm te tonen.
 ![image](images/hardhat.png) Grootste even: zie takenbundel.\
 ![image](images/hardhat.png) Grootste gemene deler: zie takenbundel.
 
-Array
+List
 =====
 
 Elke variabele die je tot nu toe maakte bevat één waarde.
@@ -1592,16 +1592,16 @@ Elke variabele die je tot nu toe maakte bevat één waarde.
 
 -   De variabele `temperatuur` bevat één getal (bv. 7).
 
-Een array is een variabele die *meerdere* waarden bevat.\
-Programmeurs spreken over de *elementen* in een array als ze de waarden
-in een array bedoelen.\
-Arrays worden in Python ook *lists* genoemd.\
+Een list is een variabele die *meerdere* waarden bevat.\
+Programmeurs spreken over de *elementen* in een list als ze de waarden
+in een list bedoelen.\
+Lists worden in andere talen ook *arrays* genoemd.\
 Je maakt als voorbeeld een variabele met de naam `voornamen`.\
 De variabele bevat drie elementen: `Ann`, `Jos` en `Mia`.
 
 Elk element heeft een volgnummer. De nummering begint vanaf **0**.\
 Dit is wennen: je nummert als mens vanaf **1**!\
-Je ziet hier de array, met boven elk element het volgnummer van
+Je ziet hier de list, met boven elk element het volgnummer van
 dat element:
 <table border="1">
 <tr>
@@ -1618,7 +1618,7 @@ dat element:
 
 Programmeurs spreken over de *index* van een element als ze het
 volgnummer bedoelen.\
-Voorbeelden van variabelen die een array zijn:
+Voorbeelden van variabelen die een list zijn:
 
 -   `voetbalploeg` bevat 11 elementen. Elk element bevat de naam van een
     speler.
@@ -1629,14 +1629,14 @@ Voorbeelden van variabelen die een array zijn:
 -   `maandelijkseNeerslag` bevat 12 elementen. Elk element bevat de
     hoeveelheid neerslag die in een maand gevallen is.
 
-Je leert in de volgende hoofdstukken praktische toepassingen van arrays.
+Je leert in de volgende hoofdstukken praktische toepassingen van lists.
 
 Voorbeeld
 ---------
 
 Je maakt een programma dat
 
-1.  een array variabele `voornamen` maakt met 3 elementen: `Ann`, `Jos`
+1.  een list variabele `voornamen` maakt met 3 elementen: `Ann`, `Jos`
     en `Mia`.
 
 2.  het element met index 0 op het scherm toont.
@@ -1649,9 +1649,9 @@ print(voornamen[0])
 ```
 
 Je bewaart en voert uit.\
-Je beschrijft een array in Python met vierkante haakjes \[ \]. Je
+Je beschrijft een list in Python met vierkante haakjes \[ \]. Je
 scheidt de verschillende elementen met een komma.\
-Je selecteert een element uit een array met de naam van de array,
+Je selecteert een element uit een list met de naam van de list,
 gevolgd door de index van het element tussen vierkante haakjes.
 
 Je wijzigt het programma. Je vraagt een volgnummer aan de gebruiker:
@@ -1669,7 +1669,7 @@ Element wijzigen
 ----------------
 
 Je maakt een nieuw bestand _werknemers.py_.\
-Je maakt een array met de namen van de werknemers van een firma.
+Je maakt een list met de namen van de werknemers van een firma.
 
 ```python
 werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
@@ -1677,7 +1677,7 @@ werknemers = ["Joe Jackson", "Donald Duck", "Martha Muffin"]
 
 Donald Duck gaat met pensioen. Een nieuwe werknemer wordt aangeworven:
 Olga Obama.\
-Je voegt een regel toe om het tweede element van de array te vervangen.
+Je voegt een regel toe om het tweede element van de list te vervangen.
 Dit element heeft als index 1.
 
 ```python
@@ -1710,12 +1710,12 @@ werknemers[index] = nieuweWerknemer
 print(werknemers[index])
 ```
 
-![image](images/hardhat.png) Random array: zie takenbundel.
+![image](images/hardhat.png) Random list: zie takenbundel.
 
 For in
 ======
 
-De instructie `for ... in` leest in een iteratie één per één alle array
+De instructie `for ... in` leest in een iteratie één per één alle list
 elementen.\
 Je leert deze instructie kennen met een nieuw programma. Je maakt een
 nieuw bestand _for-in.py_
@@ -1727,27 +1727,27 @@ for voornaam in voornamen:
 ```
 
 De schrijfwijze is hetzelfde als de `for` instructie die we reeds
-geleerd hebben, maar deze keer itereren we over een array in plaats van
+geleerd hebben, maar deze keer itereren we over een list in plaats van
 een range.\
 Je bewaart en voert uit. Je ziet één per één de voornamen.\
 Je kan `for in` combineren met alle instructies die je al kent.\
 Je kan met `for in` elementen lezen, maar niet *wijzigen*.\
-Je kan de instructie `reversed()` gebruiken om in een array van achter
+Je kan de instructie `reversed()` gebruiken om in een list van achter
 naar voor te itereren.
 
-![image](images/hardhat.png) Array totaal: zie takenbundel.\
-![image](images/hardhat.png) Array oneven: zie takenbundel.
+![image](images/hardhat.png) List totaal: zie takenbundel.\
+![image](images/hardhat.png) List oneven: zie takenbundel.
 
-Elementen toevoegen aan arrays
+Elementen toevoegen aan lists
 ==============================
 
-Je kan in Python makkelijk elementen toevoegen aan een array.\
-Arrays zijn in Python dynamisch: ze hebben geen vaste lengte.\
-In sommige andere talen (bv. Java, C\#) zijn arrays statisch: je kan de
-grootte van de array niet automatisch veranderen.\
+Je kan in Python makkelijk elementen toevoegen aan een list.\
+Lists zijn in Python dynamisch: ze hebben geen vaste lengte.\
+In sommige andere talen (bv. Java, C\#) zijn lists statisch: je kan de
+grootte van de list niet automatisch veranderen.\
 Je gebruikt de instructie `append()` om elementen toe te voegen aan een
-array.\
-Voorbeeld: Je maakt een array van 20 willekeurige getallen tussen 1 en
+list.\
+Voorbeeld: Je maakt een list van 20 willekeurige getallen tussen 1 en
 100.\
 Python heeft geen ingebouwde instructies voor het genereren van
 willekeurige getallen.\
@@ -1755,8 +1755,8 @@ Je gaat hiervoor een aparte module importeren: `random`. `import`
 instructies zet je altijd bovenaan je programma.\
 Je gebruikt de instructie `random.randint()` uit de module `random` voor
 het genereren van willekeurige gehele getallen.\
-Je begint met een lege array `getallen`.\
-Je genereert een willekeurig getal, en voegt dit toe aan de array.\
+Je begint met een lege list `getallen`.\
+Je genereert een willekeurig getal, en voegt dit toe aan de list.\
 Je herhaalt dit 20 keer via de `for` instructie. Je toont daarna de
 getallen op het scherm.\
 Je maakt een nieuw bestand _twintigelementen.py_:
@@ -1774,8 +1774,8 @@ for getal in getallen:
     print(getal)
 ```
 
-Je maakt een tweede voorbeeld. Je maakt een lege array `voornamen`. De
-gebruiker tikt 5 namen. Je vult daarmee de elementen van de array.\
+Je maakt een tweede voorbeeld. Je maakt een lege list `voornamen`. De
+gebruiker tikt 5 namen. Je vult daarmee de elementen van de list.\
 Je toont daarna de elementen op het scherm. Je maakt een nieuw bestand
 _vijfvoornamen.py_ .
 
@@ -1789,26 +1789,26 @@ for voornaam in voornamen:
     print(voornaam)
 ```
 
-![image](images/hardhat.png) Tafel array: zie takenbundel.\
+![image](images/hardhat.png) Tafel list: zie takenbundel.\
 ![image](images/hardhat.png) Omgekeerd: zie takenbundel.\
 ![image](images/hardhat.png) Aantal voorkomens: zie takenbundel.\
 ![image](images/hardhat.png) Willekeurige volgorde: zie takenbundel.\
 ![image](images/hardhat.png) Uniek: : zie takenbundel.\
 ![image](images/hardhat.png) Biljetten en munten: zie takenbundel.
 
-Arrays en functies
+Lists en functies
 ==================
 
 Parameter
 ---------
 
-De parameter van een functie kan een array zijn.\
+De parameter van een functie kan een list zijn.\
 Je maakt een eenvoudig voorbeeld.\
-De functie `toonSteden` heeft een parameter `steden`. Dit is een array.\
-De functie itereert over de elementen in de array en toont elk element.\
-Je roept in het hoofdprogramma de procedure op met een array van steden
+De functie `toonSteden` heeft een parameter `steden`. Dit is een list.\
+De functie itereert over de elementen in de list en toont elk element.\
+Je roept in het hoofdprogramma de procedure op met een list van steden
 in Vlaanderen.\
-Je roept daarna de functie nog eens op met en array vaan steden in
+Je roept daarna de functie nog eens op met en list vaan steden in
 Wallonië.\
 Je maakt een nieuw bestand _steden.py_ .
 
@@ -1825,9 +1825,9 @@ toonSteden(["Luik", "Charleroi", "Bergen", "Namen"])
 Returnwaarde van functie
 ------------------------
 
-Een array kan ook de returnwaarde van een functie zijn.\
+Een list kan ook de returnwaarde van een functie zijn.\
 Je voegt een functie toe aan _steden.py_\
-Die geeft een array terug met de grootste steden van Nederland.\
+Die geeft een list terug met de grootste steden van Nederland.\
 Je roept deze functie op als parameter van de functie `toonSteden()`.
 
 ```python
@@ -1869,12 +1869,12 @@ aantalTekens = len(voornaam)
 print("Aantal tekens in je voornaam: ", aantalTekens)
 ```
 
-Je kan `len()` ook gebruiken om de lengte van arrays te returnen.
+Je kan `len()` ook gebruiken om de lengte van lists te returnen.
 
 Eén teken
 ---------
 
-Elk teken in een string heeft een index, net zoals bij arrays.\
+Elk teken in een string heeft een index, net zoals bij lists.\
 De index van het eerste teken is 0.\
 Je breidt het programma uit. Je toont één per één de tekens in de
 voornaam:
@@ -1976,12 +1976,12 @@ print(hoofdletterWoord)
 ![image](images/hardhat.png) Naar kleine letters: zie takenbundel.\
 ![image](images/hardhat.png) Letter statistiek: zie takenbundel.
 
-Tweedimensionale array
+Tweedimensionale list
 ======================
 
-Elke array die je tot nu toe maakt is eendimensionaal. Hij bevat *één*
+Elke list die je tot nu toe maakt is eendimensionaal. Hij bevat *één*
 rij met elementen.\
-Je maakt in dit hoofdstuk een tweedimensionale array.\
+Je maakt in dit hoofdstuk een tweedimensionale list.\
 Die bevat meerdere rijen. Elke rij bevat elementen.
 
    <table border="1">
@@ -2003,7 +2003,7 @@ aangeven.
 Zowel de nummering van de rijen als de nummering van de kolommen begint
 vanaf 0.
 
-Je ziet hier de array nog een keer, met de rijnummers (links) en de
+Je ziet hier de list nog een keer, met de rijnummers (links) en de
 kolomnummers (beneden).
 
 <table border="1">
@@ -2032,39 +2032,39 @@ kolomnummers (beneden).
 
 -   Ben bevindt zich op rij 1, kolom 2.
 
-In Python is een tweedimensionale array een array die arrays bevat.\
-Elke kolom in de tweedimensionale array, is zelf een array-element.\
-Een rij van de tweedimensionale array, is dan de verzameling van alle
-elementen van de kolom-arrays, die hetzelfde indexnummer hebben.
+In Python is een tweedimensionale list een list die lists bevat.\
+Elke kolom in de tweedimensionale list, is zelf een list-element.\
+Een rij van de tweedimensionale list, is dan de verzameling van alle
+elementen van de kolom-lists, die hetzelfde indexnummer hebben.
 
-Veel gezelschapspellen lijken op een tweedimensionale array:
+Veel gezelschapspellen lijken op een tweedimensionale list:
 
-Tweedimensionale array maken
+Tweedimensionale list maken
 ----------------------------
 
-Je maakt een programma om een tweedimensionale array te leren kennen.\
-Je kan in Python geen lege tweedimensionale array maken.\
-Als je een array van bepaalde afmetingen wil maken, ga je de array met
+Je maakt een programma om een tweedimensionale list te leren kennen.\
+Je kan in Python geen lege tweedimensionale list maken.\
+Als je een list van bepaalde afmetingen wil maken, ga je de list met
 elementen moeten vullen.\
-Je vult alle elementen van de array in dit voorbeeld met 0.\
+Je vult alle elementen van de list in dit voorbeeld met 0.\
 Je maakt een nieuw bestand _tweedimensionaal.py_.\
-Je maakt een variabele `e`n vult die met een tweedimensionale array van
+Je maakt een variabele `e`n vult die met een tweedimensionale list van
 2 rijen en 3 kolommen, gevuld met 0.
 
 ```python
 getallen = [[0 for x in range(3)] for y in range(2)]
 ```
 
-Het gedeelte `[0 for x in range(3)]` creëert een array van 3 elementen
+Het gedeelte `[0 for x in range(3)]` creëert een list van 3 elementen
 en vult deze met nul.\
-Het gedeelte `[... for y in range(2)]` creëert een array van twee
+Het gedeelte `[... for y in range(2)]` creëert een list van twee
 elementen en vult elk element met een door het eerste deel gecreëerde
-array van 3 elementen.\
-Je krijgt als resultaat een tweedimensionale array van 2 rijen en 3
+list van 3 elementen.\
+Je krijgt als resultaat een tweedimensionale list van 2 rijen en 3
 kolommen, waarvan alle elementen gevuld zijn met 0.\
-Je kan deze array ook op volgende manier creëeren:\
+Je kan deze list ook op volgende manier creëeren:\
 `getallen = [[0, 0, 0], [0, 0, 0]]`.\
-Bij grotere arrays wordt dit onoverzichtelijk.
+Bij grotere lists wordt dit onoverzichtelijk.
 
 Een element invullen
 --------------------
@@ -2131,18 +2131,18 @@ Je bewaart en voert uit.
 Returnwaarde in een functie
 ---------------------------
 
-Een tweedimensionale array kan de return waarde zijn van een functie.\
+Een tweedimensionale list kan de return waarde zijn van een functie.\
 Je maakt een nieuw bestand _tweedimfuncties.py_.\
-Je maakt een functie `maakArray()`. De functie maakt een array van drie
+Je maakt een functie `maakList()`. De functie maakt een list van drie
 rijen en vijf kolommen.\
 De functie vult elk element met een willekeurig getal tussen 1 en 10. de
-functie returnt de array.
+functie returnt de list.
 
 ```python
 import random
 
 
-def maakArray():
+def maakList():
     getallen = [[0 for x in range(5)] for y in range(3)]
     for rijIndex in range(3):
         for kolomIndex in range(5):
@@ -2154,12 +2154,12 @@ Parameter
 ---------
 
 Je voegt een tweede functie toe. De functie krijgt een tweedimensionale
-array binnen als parameter.\
-De functie toont alle elementen van de array.
+list binnen als parameter.\
+De functie toont alle elementen van de list.
 
 ```python
-def toonArray(eenArray):
-    for rij in eenArray:
+def toonList(eenList):
+    for rij in eenList:
         rijString = ""
         for element in rij:
             rijString += str(element)
@@ -2167,13 +2167,13 @@ def toonArray(eenArray):
         print(rijString)
 
 
-toonArray(maakArray())
+toonList(maakList())
 ```
 
 Je bewaart en voert uit.
 
 ![image](images/hardhat.png) Som van een rij: zie takenbundel.\
-![image](images/hardhat.png) Willekeurige array: : zie takenbundel.\
+![image](images/hardhat.png) Willekeurige list: : zie takenbundel.\
 ![image](images/hardhat.png) Sturen: zie takenbundel.\
 ![image](images/hardhat.png) Magisch vierkant: zie takenbundel.\
 ![image](images/hardhat.png) Letterstatistiek 2: zie takenbundel.\
