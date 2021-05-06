@@ -1213,7 +1213,7 @@ Als de landcode `FR` is, toon je de tekst `Frankrijk`.\
 Je maakt een nieuw bestand [landcodes.py]{.sans-serif} . Je schrijft
 volgende instructies:
 
-``` {.python lastline="7"}
+``` {.python}
 landCode = input("Landcode: ")
 if landCode == "BE":
     print("België")
