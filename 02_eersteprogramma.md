@@ -98,12 +98,13 @@ Programmeren
 is
 plezant
 ```
+
 Taak
 ----
 
 ![image](images/hardhat.png)
 Programmeur : zie takenbundel
 
-<a class="btn" href="./02_eersteprogramma.html">&#9194; Eerste Programma</a>
+<a class="btn" href="./01_inleiding.html">&#9194; Inleiding</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
 <a class="btn" href="./03_datatypes.html">Datatypes &#9193;</a>

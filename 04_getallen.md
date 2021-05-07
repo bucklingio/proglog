@@ -61,3 +61,7 @@ print(13 % 5)
 ```
 
 ![image](images/hardhat.png) Vermenigvuldigen: zie takenbundel.
+
+<a class="btn" href="./03_datatypes.html">&#9194; Datatypes</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./05_meerderebewerkingen.html">Meerdere bewerkingen &#9193;</a>

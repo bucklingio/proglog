@@ -41,3 +41,7 @@ We noemen bij programmeren een logische waarde ook een *boolean* waarde.
 
 ![image](images/hardhat.png) 
 Datatypes: zie takenbundel.
+
+<a class="btn" href="./02_eersteprogramma.html">&#9194; Eerste Programma</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./04_getallen.html">Getallen &#9193;</a>

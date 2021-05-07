@@ -43,3 +43,7 @@ getallen 14 en 20.
 
 ![image](images/hardhat.png) Percentage: zie takenbundel.
 
+<a class="btn" href="./04_getallen.html">&#9194; Getallen</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./06_variabelen.html">Variabelen &#9193;</a>
+

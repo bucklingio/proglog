@@ -171,6 +171,7 @@ Programmeren
 is
 plezant
 ```
+
 Taak
 ----
 
@@ -789,12 +790,12 @@ Anders uitgedrukt: `temperatuur <= 0` (zie vorig hoofdstuk).
 
 2.  Je voegt volgende regels toe:
 
-    ```python
-    temperatuur = float(input("Temperatuur: "))
-    if temperatuur <= 0:
-        print("Het vriest.")
-        print("Je doet beter een dikke jas aan.")
-    ```
+```python
+temperatuur = float(input("Temperatuur: "))
+if temperatuur <= 0:
+    print("Het vriest.")
+    print("Je doet beter een dikke jas aan.")
+```
 
 Je bewaart en voert het programma enkele keren uit. Enkel als je een
 temperatuur lager of gelijk aan 0 tikt, toont het programma je de
@@ -815,10 +816,10 @@ volgende regels weer naar links staan.\
 Dit moet je zelf doen. Je kan dit doen met de toets
 _Backspace_ of de toetsencombinatie _Shift + Tab_.\
 Je voegt volgende regel toe aan het programma:
-
-        ...
-        (*\textcolor{gray}{print("Je doet beter een dikke jas aan"))}*)
-    print("Einde van het programma.")
+```
+...
+print("Einde van het programma.")
+```
 
 Je zorgt dat deze regel helemaal links staat. Je bewaart en voert uit.
 Je ziet dat de laatste regel altijd getoond wordt, ook als de
@@ -836,11 +837,15 @@ Voorbeeld: je toont de tekst `Een lichte jas volstaat.` enkel als de
 temperatuur *niet* kleiner of gelijk is aan 0.\
 Je voegt daartoe een else onderdeel toe aan de if:
 
-    ...
-        (*\textcolor{gray}{print("Je doet beter een dikke jas aan"))}*)
-    else:
-        print("Een lichte jas volstaat.")
-    (*\textcolor{gray}{print("Einde van het programma.")}*)
+```python
+temperatuur = float(input("Temperatuur: "))
+if temperatuur <= 0:
+    print("Het vriest.")
+    print("Je doet beter een dikke jas aan.")
+else:
+    print("Een lichte jas volstaat.")
+print("Einde van het programma.")
+```
 
 Let goed op de indentering. `else` staat weer naar links, en je `print`
 weer naar rechts.\
@@ -860,15 +865,18 @@ Je breidt je programma uit: je vraagt aan de gebruiker of het zal
 regenen.\
 Enkel als hij `ja` antwoordt, toon je de tekst `Neem een paraplu mee.`\
 Je voegt volgende regels toe:
-
-    ...
-        (*\textcolor{gray}{print("Je doet beter een dikke jas aan"))}*)
-    (*\textcolor{gray}{else:}*)
-        (*\textcolor{gray}{print("Een lichte jas volstaat.")}*)
-    regen = input("Zal het regenen? (tik ja of nee):")
-    if regen == "ja":
+```python
+temperatuur = float(input("Temperatuur: "))
+regen = input("Zal het regenen? (tik ja of nee):")
+if temperatuur <= 0:
+    print("Het vriest.")
+    print("Je doet beter een dikke jas aan.")
+else:
+    print("Een lichte jas volstaat.")
+if regen == "ja":
         print("Neem een paraplu mee.")
-    (*\textcolor{gray}{print("Einde van het programma.")}*)
+print("Einde van het programma.")
+```
 
 Let op de dubbele `==`.\
 Je bewaart en voert uit.
