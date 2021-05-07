@@ -67,5 +67,5 @@ Je zoekt de extensie 'Python' in het zoekveld.
 Je installeert de extensie door op de knop 'Install' te klikken. Je
 herstart daarna VSCode.
 
-<a class="btn" href="./index.html">Index</a>
-<a class="btn" href="./02_eersteprogramma.html">Eerste Programma :fast_forward:</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./02_eersteprogramma.html">Eerste Programma &#9193;</a>
