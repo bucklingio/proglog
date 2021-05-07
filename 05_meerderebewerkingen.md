@@ -43,4 +43,3 @@ getallen 14 en 20.
 
 ![image](images/hardhat.png) Percentage: zie takenbundel.
 
-<a href="02_eersteprogramma.md"><button value="Eerste Programma"></a>
