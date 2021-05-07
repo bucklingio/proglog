@@ -42,3 +42,5 @@ Je bewaart en voert het programma uit. In je uitvoer zie je onderaan de
 getallen 14 en 20.
 
 ![image](images/hardhat.png) Percentage: zie takenbundel.
+
+<a href="02_eersteprogramma.md"><button value="Eerste Programma"></a>
