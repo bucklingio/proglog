@@ -902,33 +902,34 @@ De eerste zin bevat *twee* voorwaarden:
 
 De voorwaarden worden gecombineerd met `or` (of).\
 Bij _or_ is de combinatie waar (True) als één van de twee
-voorwaarden waar (True) is.\
-[Voorbeeld 1]{.ul}: een bezoeker met een leeftijd van 4 jaar.
+voorwaarden waar (True) is.
 
--   De eerste voorwaarde (leeftijd \< 7) is waar.
+- Voorbeeld 1: een bezoeker met een leeftijd van 4 jaar.
 
--   De tweede voorwaarde (leeftijd \> 80) is onwaar.
+  -   De eerste voorwaarde (leeftijd \< 7) is waar.
 
--   Omdat de eerste voorwaarde waar is, is de combinatie ook waar. De
-    bezoeker betaalt €5.
+  -   De tweede voorwaarde (leeftijd \> 80) is onwaar.
 
-[Voorbeeld 2]{.ul}: een bezoeker met een leeftijd van 90 jaar.
+  -   Omdat de eerste voorwaarde waar is, is de combinatie ook waar. De
+      bezoeker betaalt €5.
 
--   De eerste voorwaarde (leeftijd \< 7) is onwaar.
+- Voorbeeld 2: een bezoeker met een leeftijd van 90 jaar.
 
--   De tweede voorwaarde (leeftijd \> 80) is waar.
+  -   De eerste voorwaarde (leeftijd \< 7) is onwaar.
 
--   Omdat de tweede voorwaarde waar is, is de combinatie ook waar. De
-    bezoeker betaalt €5.
+  -   De tweede voorwaarde (leeftijd \> 80) is waar.
 
-[Voorbeeld 3]{.ul}: een bezoeker met een leeftijd van 45 jaar.
+  -   Omdat de tweede voorwaarde waar is, is de combinatie ook waar. De
+      bezoeker betaalt €5.
 
--   De eerste voorwaarde (leeftijd \< 7) is onwaar.
+- Voorbeeld 3: een bezoeker met een leeftijd van 45 jaar.
 
--   De tweede voorwaarde (leeftijd \> 80) is onwaar.
+  -   De eerste voorwaarde (leeftijd \< 7) is onwaar.
 
--   Omdat geen enkele voorwaarde waar is, is de combinatie onwaar. De
-    bezoeker betaalt €10.
+  -   De tweede voorwaarde (leeftijd \> 80) is onwaar.
+
+  -   Omdat geen enkele voorwaarde waar is, is de combinatie onwaar. De
+      bezoeker betaalt €10.
 
 Je maakt dit programma. Je maakt een nieuw bestand
 _prijs.py_. Je schrijft volgende regels:
@@ -957,33 +958,34 @@ Deze zin bevat twee voorwaarden:
 -   BMI kleiner of gelijk aan 25
 
 De voorwaarden worden gecombineerd met **en** (`and`). Bij `and` is de
-combinatie enkel waar als *alle* voorwaarden waar zijn.\
-underlineVoorbeeld 1: een BMI van 15.
+combinatie enkel waar als *alle* voorwaarden waar zijn.
 
--   De eerste voorwaarde (bmi \>= 18.5) is onwaar.
+- Voorbeeld 1: een BMI van 15.
 
--   De tweede voorwaarde (bmi \<= 25) is waar.
+  -   De eerste voorwaarde (bmi \>= 18.5) is onwaar.
 
--   Omdat de eerste voorwaarde onwaar is, is de combinatie onwaar. Het
-    gewicht is niet ok.
+  -   De tweede voorwaarde (bmi \<= 25) is waar.
 
-[Voorbeeld 2:]{.ul} een BMI van 30.
+  -   Omdat de eerste voorwaarde onwaar is, is de combinatie onwaar. Het
+      gewicht is niet ok.
 
--   De eerste voorwaarde (bmi \>= 18.5) is waar.
+- Voorbeeld 2: een BMI van 30.
 
--   De tweede voorwaarde (bmi \<= 25) is onwaar.
+  -   De eerste voorwaarde (bmi \>= 18.5) is waar.
 
--   Omdat de tweede voorwaarde onwaar is, is de combinatie onwaar. Het
-    gewicht is niet ok.
+  -   De tweede voorwaarde (bmi \<= 25) is onwaar.
 
-[Voorbeeld 3:]{.ul} een BMI van 23.
+  -   Omdat de tweede voorwaarde onwaar is, is de combinatie onwaar. Het
+      gewicht is niet ok.
 
--   De eerste voorwaarde (bmi \>= 18.5) is waar.
+- Voorbeeld 3: een BMI van 23.
 
--   De tweede voorwaarde (bmi \<= 25) is waar.
+  -   De eerste voorwaarde (bmi \>= 18.5) is waar.
 
--   Omdat *alle* voorwaarden waar zijn, is de combinatie waar. Het
-    gewicht is ok.
+  -   De tweede voorwaarde (bmi \<= 25) is waar.
+
+  -   Omdat *alle* voorwaarden waar zijn, is de combinatie waar. Het
+      gewicht is ok.
 
 Je maakt een nieuw bestand aan met de naam _bmi.py_ . Je
 schrijft volgende regels:
@@ -1078,7 +1080,7 @@ _goededoel.py_.
     opbrengst = 0
     gestort = float(input("Gestort bedrag (0 om te stoppen): "))
     ```
-    
+
 2.  *Zolang* de variabele `gestort` verschilt van 0, moet je programma
     enkele instructies uitvoeren. Je voegt daarvoor een `while`
     instructie toe. Je geeft de *voorwaarde* aan. *Zolang* deze waar
