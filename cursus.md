@@ -118,6 +118,7 @@ Je tikt nu de eerste regel in je bestand:
 ```python
 print("Programmeren")
 ```
+
 Bewaren
 -------
 
@@ -135,7 +136,7 @@ Uitvoeren
 Je voert je progamma uit door op de groene driehoek rechtsboven te
 klikken.
 
-![image](images/run-python-file-in-terminal-button.png)
+![image](images/run-in-terminal.png)
 
 Je ziet nu de uitvoer van je programma in het Terminal venster
 onderaan.\
