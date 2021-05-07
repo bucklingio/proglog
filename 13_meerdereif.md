@@ -24,3 +24,7 @@ Let op de dubbele `==`.\
 Je bewaart en voert uit.
 
 ![image](images/hardhat.png) Delen: zie takenbundel.
+
+<a class="btn" href="./12_else.html">&#9194; Else</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./14_orenand.html">Or en And &#9193;</a>

@@ -89,3 +89,7 @@ Je verandert de laatste regel van je programma:
 Je bewaart en voert uit. Je krijgt dezelfde uitvoer te zien.
 
 ![image](images/hardhat.png) Vierkant: zie takenbundel.
+
+<a class="btn" href="./08_getalveranderen.html">&#9194; Getal veranderen</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./10_vergelijken.html">Vergelijken &#9193;</a>

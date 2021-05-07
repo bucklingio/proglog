@@ -25,3 +25,7 @@ zie je de tekst `Een lichte jas volstaat.`
 ![image](images/hardhat.png) Kind : zie takenbundel.\
 ![image](images/hardhat.png) Kelvin: zie takenbundel.\
 ![image](images/hardhat.png) Even: zie takenbundel.
+
+<a class="btn" href="./11_if.html">&#9194; If</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./13_meerdereif.html">Meerdere if &#9193;</a>

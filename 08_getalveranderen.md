@@ -32,3 +32,7 @@ Je kan deze schrijfwijze ook toepassen op delen (`/=`), vermenigvuldigen
 (`*=`), en aftrekken (`-=`).
 
 ![image](images/hardhat.png) Ticket: zie takenbundel.
+
+<a class="btn" href="./07_opvragen.html">&#9194; Opvragen</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./09_concateneren.html">Concateneren &#9193;</a>

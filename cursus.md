@@ -1074,10 +1074,11 @@ _goededoel.py_.
 1.  Je maakt een variabele met de naam `opbrengst`. Je initialiseert de
     variabele op 0. Je vraagt daarna aan de gebruiker een eerste
     gestorte bedrag:
-
-            opbrengst = 0
-            gestort = float(input("Gestort bedrag (0 om te stoppen): "))
-
+    ```python
+    opbrengst = 0
+    gestort = float(input("Gestort bedrag (0 om te stoppen): "))
+    ```
+    
 2.  *Zolang* de variabele `gestort` verschilt van 0, moet je programma
     enkele instructies uitvoeren. Je voegt daarvoor een `while`
     instructie toe. Je geeft de *voorwaarde* aan. *Zolang* deze waar
@@ -1090,18 +1091,17 @@ _goededoel.py_.
     -   een instructie waarmee de gebruiker het volgende bedrag kan
         intikken.
 
-    ```{=html}
-    <!-- -->
+    ```python
+    ...
+    gestort = float(input("Gestort bedrag (0 om te stoppen): "))
+    while gestort != 0:
+        opbrengst += gestort
+        print(opbrengst)
+        gestort = float(input("Gestort bedrag (0 om te stoppen): "))
     ```
-            ...
-            (*\textcolor{gray}{gestort = float(input("Gestort bedrag (0 om te stoppen): "))}*)
-            while gestort != 0:
-                opbrengst += gestort
-                print(opbrengst)
-                gestort = float(input("Gestort bedrag (0 om te stoppen): "))
 
 Je bewaart en voert uit.\
-Opmerking: je programma kan *meerdere* `while` en/of `if` isntructies
+Opmerking: je programma kan *meerdere* `while` en/of `if` instructies
 bevatten.\
 Opmerking: een synoniem voor herhalen is *itereren*. Een synoniem voor
 herhaling is *iteratie*.

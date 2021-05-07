@@ -73,3 +73,7 @@ Je bewaart en voert uit.
 
 ![image](images/hardhat.png) Rechthoek: zie takenbundel.\
 ![image](images/hardhat.png) Cirkel: zie takenbundel.
+
+<a class="btn" href="./06_variabelen.html">&#9194; Variabelen</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./08_getalveranderen.html">Getal veranderen &#9193;</a>

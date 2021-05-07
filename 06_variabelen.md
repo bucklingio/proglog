@@ -144,3 +144,7 @@ terminalvenster:
 ```
 
 ![image](images/hardhat.png) Lotto: zie takenbundel.
+
+<a class="btn" href="./05_meerderebewerkingen.html">&#9194; Meerdere bewerkingen</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./07_opvragen.html">Opvragen &#9193;</a>

@@ -80,3 +80,7 @@ Het is onwaar (False) dat de string _limonade_ alfabetisch
 voor de string _bier_ komt.
 
 ![image](images/hardhat.png) Vergelijken: zie takenbundel.
+
+<a class="btn" href="./09_concateneren.html">&#9194; Concateneren</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./11_if.html">If &#9193;</a>

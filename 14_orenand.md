@@ -113,3 +113,7 @@ if (bmi >= 18.5 and bmi <= 25):
 
 ![image](images/hardhat.png) Café: zie takenbundel\
 ![image](images/hardhat.png) Leeftijd: zie takenbundel
+
+<a class="btn" href="./13_meerdereif.html">&#9194; Meerdere if</a>
+<a class="btn" href="./index.html">&#9195; Index</a>
+<a class="btn" href="./15_nesten.html">Nesten &#9193;</a>
