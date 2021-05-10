@@ -65,4 +65,4 @@ herhaling is *iteratie*.
 
 <a class="btn" href="./15_nesten.html">&#9194; Nesten</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
-<a class="btn" href="./16_while.html">While &#9193;</a>
+<a class="btn" href="./17_nognesten.html">Nog nesten &#9193;</a>

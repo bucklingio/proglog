@@ -1466,12 +1466,12 @@ Je opent het bestand _evenoneven.py_.\
 De functie is niet flexibel: ze kan enkel van de variabele `getal`
 zeggen of het even of oneven is.\
 Je voegt in het hoofdprogramma volgende regel toe:
-
-    ...
-    (*\textcolor{gray}{getal = int(input("Getal: "))}*)
-    tweedeGetal = int(input("Tweede getal: "))
-    (*\textcolor{gray}{evenOneven()}*)
-
+```python
+...
+getal = int(input("Getal: "))
+tweedeGetal = int(input("Tweede getal: "))
+(*\textcolor{gray}{evenOneven()}*)
+```
 Je kan de functie niet oproepen om te zeggen of dit tweede getal even of
 oneven is.\
 De oplossing: aan de functie een parameter toevoegen.\
@@ -1480,20 +1480,20 @@ oproep van de functie.\
 Je kan bij elke oproep een *andere* waarde meegeven als parameter.\
 Je kan in de functie de waarde lezen en er berekeningen mee doen.\
 Je voegt een parameter toe aan de functie `evenOneven()`:
-
-    def evenOneven(eenGetal):
-        if eenGetal % 2 == 0:
-            (*\textcolor{gray}{print("Even")}*)
-            ...
-
+```python
+def evenOneven(eenGetal):
+    if eenGetal % 2 == 0:
+        print("Even")
+        ...
+```
 Telkens je de functie oproept moet je een waarde meegeven voor de
 parameter `eenGetal`. Je wijzigt het hoofdprogramma:
-
-    ...
-    (*\textcolor{gray}{tweedeGetal = int(input("Tweede getal: ")))}*)
-    evenOneven(getal)    
-    evenOneven(tweedeGetal)
-
+```python
+...
+tweedeGetal = int(input("Tweede getal: "))
+evenOneven(getal)    
+evenOneven(tweedeGetal)
+```
 Je vermeldt bij de eerste oproep de variabele `getal` als parameter.\
 Je programma roept de functie op.\
 Je programma vult de parameter `eenGetal` met de waarde in de variabele
@@ -1506,11 +1506,11 @@ Bij het uitvoeren bevat de parameter `eenGetal` de waarde van de
 variabele `tweedeGetal`.\
 Je kan, naast variabelen, ook waarden als parameter gebruiken. Je voegt
 volgende regel toe aan je programma:
-
-    ...
-    (*\textcolor{gray}{evenOneven(tweedeGetal)}*)
-    evenOneven(3)
-
+```python
+...
+evenOneven(tweedeGetal)
+evenOneven(3)
+```
 Je bewaart en test het programma.
 
 Meerdere parameters
@@ -1898,12 +1898,12 @@ Elk teken in een string heeft een index, net zoals bij lists.\
 De index van het eerste teken is 0.\
 Je breidt het programma uit. Je toont één per één de tekens in de
 voornaam:
-
-    ...
-    (*\textcolor{gray}{print("Aantal tekens in je voornaam: ", aantalTekens)}*)
-    for i in range(aantalTekens):
-        print(voornaam[i])
-
+```python
+...
+print("Aantal tekens in je voornaam: ", aantalTekens)
+for i in range(aantalTekens):
+    print(voornaam[i])
+```
 Je bewaart en voert uit.
 
 ![image](images/hardhat.png) Aantal spaties: zie takenbundel.\
@@ -1996,215 +1996,226 @@ print(hoofdletterWoord)
 ![image](images/hardhat.png) Naar kleine letters: zie takenbundel.\
 ![image](images/hardhat.png) Letter statistiek: zie takenbundel.
 
-Tweedimensionale list
-======================
+Dictionary
+==========
 
-Elke list die je tot nu toe maakt is eendimensionaal. Hij bevat *één*
-rij met elementen.\
-Je maakt in dit hoofdstuk een tweedimensionale list.\
-Die bevat meerdere rijen. Elke rij bevat elementen.
+Algemeen
+--------
 
-   <table border="1">
-   <tr>
-    <td>Ann</td>
-    <td>Jos</td>
-    <td>Mia</td>
-</tr>
-<tr>
-    <td>Bas</td>
-    <td>Eva</td>
-    <td>Ben</td>
-</tr>
-
-</table>
-Om één element aan te duiden moet je de rij én de kolom van dat element
-aangeven.
-
-Zowel de nummering van de rijen als de nummering van de kolommen begint
-vanaf 0.
-
-Je ziet hier de list nog een keer, met de rijnummers (links) en de
-kolomnummers (beneden).
-
-<table border="1">
-   <tr>
-   <th>0</th>
-    <td>Ann</td>
-    <td>Jos</td>
-    <td>Mia</td>
-</tr>
-<tr>
-<th>1</th>
-    <td>Bas</td>
-    <td>Eva</td>
-    <td>Ben</td>
-</tr>
-<tr>
-<td></td>
-    <th>0</th>
-    <th>1</th>
-    <th>2</th>
-</tr>
-</table>
-
-
--   Ann bevindt zich op rij 0, kolom 0.
-
--   Ben bevindt zich op rij 1, kolom 2.
-
-In Python is een tweedimensionale list een list die lists bevat.\
-Elke kolom in de tweedimensionale list, is zelf een list-element.\
-Een rij van de tweedimensionale list, is dan de verzameling van alle
-elementen van de kolom-lists, die hetzelfde indexnummer hebben.
-
-Veel gezelschapspellen lijken op een tweedimensionale list:
-
-Tweedimensionale list maken
-----------------------------
-
-Je maakt een programma om een tweedimensionale list te leren kennen.\
-Je kan in Python geen lege tweedimensionale list maken.\
-Als je een list van bepaalde afmetingen wil maken, ga je de list met
-elementen moeten vullen.\
-Je vult alle elementen van de list in dit voorbeeld met 0.\
-Je maakt een nieuw bestand _tweedimensionaal.py_.\
-Je maakt een variabele `e`n vult die met een tweedimensionale list van
-2 rijen en 3 kolommen, gevuld met 0.
+Je beschrijft met een dictionary (afgekort als **dict**) een verzameling
+attributen (key) met hun waarde (value).\
+Je beschrijft bijvoorbeeld de eigenschappen van een rechthoek.\
+De rechthoek heeft een lengte van 3, een breedte van 2, en een rode
+kleur.
 
 ```python
-getallen = [[0 for x in range(3)] for y in range(2)]
+rechthoek = {"lengte": 3, "breedte": 2, "kleur": "rood"}
+
+print(rechthoek["lengte"])
+rechthoek["lengte"] = 4
+print(rechthoek["lengte"])
 ```
 
-Het gedeelte `[0 for x in range(3)]` creëert een list van 3 elementen
-en vult deze met nul.\
-Het gedeelte `[... for y in range(2)]` creëert een list van twee
-elementen en vult elk element met een door het eerste deel gecreëerde
-list van 3 elementen.\
-Je krijgt als resultaat een tweedimensionale list van 2 rijen en 3
-kolommen, waarvan alle elementen gevuld zijn met 0.\
-Je kan deze list ook op volgende manier creëeren:\
-`getallen = [[0, 0, 0], [0, 0, 0]]`.\
-Bij grotere lists wordt dit onoverzichtelijk.
-
-Een element invullen
---------------------
-
-Je voegt een regel toe. Je vult daarmee het element op rij 1, kolom 2
-met het getal 7.
+Je maakt een dict als een verzameling **key:value** paren tussen `{ }`.\
+Je typt per attribuut de naam (bijvoorbeeld `lengte`) en de waarde
+(bijvoorbeeld `3`) van het attribuut.\
+Je leest de waarde van een attribuut als `naamDict["naamAttribuut"]` of\
+`naamDict.get("naamAttribuut")`.\
+Je wijzigt de waarde van een attribuut met
+`naamDict["naamAttribuut"] = nieuweWaarde`.\
+Je kan complexere dicts leesbaarder schrijven door elk attribuut op een
+nieuwe regel te schrijven.
 
 ```python
-getallen[1][2] = 7
+rechthoek = {
+    "lengte": 3, 
+    "breedte": 2, 
+    "kleur": "rood"
+}
+print(rechthoek["lengte"])
+rechthoek["lengte"] = 4
+print(rechthoek["lengte"])
 ```
 
-Een element lezen
------------------
-
-Je voegt een regel toe. Je leest daarme de waarde van het element op rij
-1, kolom 2, en toont het op het scherm.
+Je kan de waarde van de attributen ook vragen aan de gebruiker:
 
 ```python
-print(getallen[1][2])
+rechthoek = {
+    "lengte": int(input("Lengte: ")),
+    "breedte": int(input("Breedte: ")),
+    "kleur": input("Kleur: "),
+}
+
+print(rechthoek.get("lengte"), rechthoek.get("breedte"), rechthoek.get("kleur"))
 ```
 
-Je bewaart en voert uit.
+Let op met het gebruik van attributen in f-strings! Gebruik in een
+f-string nooit dubbele aanhalingstekens voor je key, maar enkele
+aanhalingstekens:
 
-Alle elementen invullen
------------------------
+      mijnString = f"De value is {mijnDict['mijnKey']}"
 
-Je voegt nog regels toe. Je itereert met een eerste `for` over de
-rijen.\
-Je itereert met een tweede `for` over de kolommen.\
-De tweede `for` is genest in de eerste `for`.\
-De tweede `for` itereert dus *per rijnummer* over de kolomnummers.\
-In de tweede `for` vul je het element met het rijnummer en kolomnummer
-met een willekeurig getal tussen 1 en 10.
+Een key in een dictionary is **altijd uniek**.
+
+List
+----
+
+Je maakt een verzameling van 2 rechthoeken. Je doet dit door een list te
+maken die 2 dicts bevat:
 
 ```python
-for rijIndex in range(2):
-    for kolomIndex in range(3):
-        getallen[rijIndex][kolomIndex] = random.randint(1, 10)
+rechthoeken = [
+    {"lengte": 3, "breedte": 2, "kleur": "rood"},
+    {"lengte": 7, "breedte": 4, "kleur": "groen"},
+]
+for rechthoek in rechthoeken:
+    print(rechthoek.get("lengte"), rechthoek.get("breedte"), rechthoek.get("kleur"))
 ```
 
-Alle elementen tonen
---------------------
-
-Je voegt regels toe om alle elementen op het scherm te tonen.\
-Om de elementen van een rij naast elkaar te tonen, maak je een lege
-string `rijString`.\
-Je vult deze string met de elementen uit die rij, en je voegt telkens
-een spatie toe.\
-Als de string gevuld is, toon je deze op het scherm.\
-Je herhaalt dit voor elke rij. Zo komen de verschillende rijen onder
-elkaar.
+Ook hier kan je de gebruiker de list laten maken:
 
 ```python
-for rij in getallen:
-    rijString = ""
-    for element in rij:
-        rijString += str(element)
-        rijString += " "
-    print(rijString)
+rechthoeken = []
+
+lengte = int(input("Lengte: "))
+while lengte != 0:
+    rechthoeken.append(
+        {
+            "lengte": lengte,
+            "breedte": int(input("Breedte: ")),
+            "kleur": input("Kleur: "),
+        }
+    )
+    lengte = int(input("Lengte: "))
+
+for rechthoek in rechthoeken:
+    print(rechthoek.get("lengte"), rechthoek.get("breedte"), rechthoek.get("kleur"))
 ```
 
-Je bewaart en voert uit.
+Dict als attribuut
+------------------
 
-Returnwaarde in een functie
----------------------------
-
-Een tweedimensionale list kan de return waarde zijn van een functie.\
-Je maakt een nieuw bestand _tweedimfuncties.py_.\
-Je maakt een functie `maakList()`. De functie maakt een list van drie
-rijen en vijf kolommen.\
-De functie vult elk element met een willekeurig getal tussen 1 en 10. de
-functie returnt de list.
+Een attribuut van een dict kan zelf een dict zijn:
 
 ```python
-import random
-
-
-def maakList():
-    getallen = [[0 for x in range(5)] for y in range(3)]
-    for rijIndex in range(3):
-        for kolomIndex in range(5):
-            getallen[rijIndex][kolomIndex] = random.randint(1, 10)
-    return getallen
+adres = {
+    "straat": "Keizerslaan",
+    "huisnummer": "11",
+    "gemeente": {"postcode": 1000, "naam": "Brussel"},
+}
+print(adres.get("gemeente").get("naam"))
+print(adres["gemeente"]["naam"])
 ```
 
-Parameter
+List als attribuut
+------------------
+
+Een attribuut van een dict kan ook een list zijn:
+
+```python
+persoon = {"familienaam": "Desmet", "voornamen": ["Hans", "Cyriel"]}
+
+for voornaam in persoon.get("voornamen"):
+    print(voornaam)
+```
+
+![image](images/hardhat.png) BMI: zie takenbundel.
+
+Tuples
+======
+
+Algemeen
+--------
+
+Tuples zijn verzamelingen van waarden, net zoals lists. Tuples kan je
+echter niet wijzigen, ze zijn **immutable**.\
+Je schrijft tuples met ronde haakjes.
+
+      mijnTuple = (45, 60, 75)
+
+Voorbeeld
 ---------
 
-Je voegt een tweede functie toe. De functie krijgt een tweedimensionale
-list binnen als parameter.\
-De functie toont alle elementen van de list.
+Je maakt een programma dat
+
+1.  een tuple variabele `voornamen` maakt met 3 elementen: `Ann`, `Jos`
+    en `Mia`.
+
+2.  het element met index 0 op het scherm toont.
+
+Je maakt een nieuw bestand [voornamentuple.py]{.sans-serif}:
 
 ```python
-def toonList(eenList):
-    for rij in eenList:
-        rijString = ""
-        for element in rij:
-            rijString += str(element)
-            rijString += " "
-        print(rijString)
-
-
-toonList(maakList())
+voornamen = ("Ann", "Jos", "Mia")
+print(voornamen[0])
 ```
 
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Som van een rij: zie takenbundel.\
-![image](images/hardhat.png) Willekeurige list: : zie takenbundel.\
-![image](images/hardhat.png) Sturen: zie takenbundel.\
-![image](images/hardhat.png) Magisch vierkant: zie takenbundel.\
-![image](images/hardhat.png) Letterstatistiek 2: zie takenbundel.\
-![image](images/hardhat.png) Posities: zie takenbundel.
+Je wijzigt het programma. Je vraagt een volgnummer aan de gebruiker:
 
-Colofon
-=======
+```python
+voornamen = ("Ann", "Jos", "Mia")
+index = int(input("Volgnummer: "))
+if index >= 0 and index <= 2:
+    print(voornamen[index])
+```
 
-Jean Smits
+Je bewaart en voert uit.
 
-Hans Desmet
+Immutable
+---------
 
-Hans Desmet\
-Ian Grosfeld
+Je maakt een nieuw bestand [werknemerstuple.py]{.sans-serif}.\
+Je maakt een tuple met de namen van de werknemers van een firma.
+
+```python
+werknemers = ("Joe Jackson", "Donald Duck", "Martha Muffin")
+```
+
+Donald Duck gaat met pensioen. Een nieuwe werknemer wordt aangeworven:
+Olga Obama.\
+Je voegt een regel toe om het tweede element van de list te vervangen.
+Dit element heeft als index 1.
+
+```python
+werknemers = ("Joe Jackson", "Donald Duck", "Martha Muffin")
+werknemers[1] = "Olga Obama"
+```
+
+Je toont daarna dit element op het scherm. Je programma ziet er als
+volgt uit:
+
+```python
+werknemers = ("Joe Jackson", "Donald Duck", "Martha Muffin")
+werknemers[1] = "Olga Obama"
+print(werknemers[1])
+```
+
+Je bewaart en probeert uit te voeren. Je krijgt een foutmelding:
+
+    Traceback (most recent call last):
+      File "werknemerstuple.py", line 2, in <module>
+        werknemers[1] = "Olga Obama"
+    TypeError: 'tuple' object does not support item assignment
+
+Je kan de inhoud van een tuple niet wijzigen.
+
+For in
+------
+
+De instructie `for ... in` leest in een iteratie één per één alle tuple
+elementen.\
+Je maakt een nieuw bestand [for-in-tuple.py]{.sans-serif}
+
+```python
+voornamen = ("Ann", "Jos", "Mia")
+for voornaam in voornamen:
+    print(voornaam)
+```
+
+De schrijfwijze is hetzelfde als de `for ... in` instructie die we reeds
+geleerd hebben, maar deze keer itereren we over een tuple in plaats van
+een list.\
+Je bewaart en voert uit. Je ziet één per één de voornamen.\
+Je kan `for in` combineren met alle instructies die je al kent.
