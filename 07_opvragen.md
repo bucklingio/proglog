@@ -29,6 +29,7 @@ Je doet dit als voorbeeld met de voornaam:
     voornaam = input()
     ...
     ```
+
     De instructie `input()` laat je toe informatie te tikken in het
     terminalscherm. Python bewaart de invoer daarna in de variabele
     `voornaam`.
@@ -40,6 +41,7 @@ Je doet dit als voorbeeld met de voornaam:
     voornaam = input("Wat is je voornaam? ")
     ...
     ```
+    
 Je bewaart en voert uit. De gebruiker kan nu zijn voornaam intikken. Als
 hij de voornaam _Piet_ intikt, zie je dat de variabele
 `voornaam` de tekst _Piet_ bevat:
@@ -50,6 +52,7 @@ True
 4
 480
 ```
+
 Je vraagt ook het aantal kinderen aan de gebruiker.
 
 **Opgepast!** Het type van de functie `input()` is **altijd** een
@@ -67,12 +70,13 @@ Je probeert dit hier al uit, ook al gaan we met de invoer niet rekenen.
 aantalKinderen = int(input("Hoeveel kinderen heb je?"))
 ...
 ```
+
 2.  Je verwijdert de regel `aantalKinderen = 4`.
 
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Rechthoek: zie takenbundel.\
-![image](images/hardhat.png) Cirkel: zie takenbundel.
+![image](images/hardhat.png) [Rechthoek](/taken/rechthoek.html).\
+![image](images/hardhat.png) [Cirkel](/taken/cirkel.html).
 
 <a class="btn" href="./06_variabelen.html">&#9194; Variabelen</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

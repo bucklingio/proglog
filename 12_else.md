@@ -22,9 +22,9 @@ weer naar rechts.\
 Je bewaart en voert uit. Enkel als je een temperatuur tikt groter dan 0
 zie je de tekst `Een lichte jas volstaat.`
 
-![image](images/hardhat.png) Kind : zie takenbundel.\
-![image](images/hardhat.png) Kelvin: zie takenbundel.\
-![image](images/hardhat.png) Even: zie takenbundel.
+![image](images/hardhat.png) [Kind](/taken/kind.html).\
+![image](images/hardhat.png) [Kelvin](/taken/kelvin.html).\
+![image](images/hardhat.png) [Even](/taken/even.html).
 
 <a class="btn" href="./11_if.html">&#9194; If</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

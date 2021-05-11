@@ -31,7 +31,7 @@ Je bewaart en voert uit. Je krijgt dezelfde uitvoer te zien.\
 Je kan deze schrijfwijze ook toepassen op delen (`/=`), vermenigvuldigen
 (`*=`), en aftrekken (`-=`).
 
-![image](images/hardhat.png) Ticket: zie takenbundel.
+![image](images/hardhat.png) [Ticket](/taken/ticket.html).
 
 <a class="btn" href="./07_opvragen.html">&#9194; Opvragen</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

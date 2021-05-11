@@ -94,6 +94,7 @@ print(voornaam)
 print(aantalKinderen)
 print(gehuwd)
 ```
+
 ![image](images/hardhat.png) [Film](/taken/film.html).
 
 Wijzigen
@@ -110,6 +111,7 @@ volgende regel toe:
 aantalKinderen = 4
 print(aantalKinderen)
 ```
+
 Je bewaart en voert uit. Je ziet volgende uitvoer in het
 terminalvenster:
 ```
@@ -118,6 +120,7 @@ Mia
 True
 4
 ```
+
 Gebruik in een berekening
 -------------------------
 

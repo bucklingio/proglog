@@ -113,8 +113,8 @@ if (bmi >= 18.5 and bmi <= 25):
     print("OK")
 ```
 
-![image](images/hardhat.png) Café: zie takenbundel\
-![image](images/hardhat.png) Leeftijd: zie takenbundel
+![image](images/hardhat.png) [Café](/taken/cafe.html).\
+![image](images/hardhat.png) [Leeftijd](/taken/leeftijd.html).
 
 <a class="btn" href="./13_meerdereif.html">&#9194; Meerdere if</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

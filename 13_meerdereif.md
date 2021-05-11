@@ -23,7 +23,7 @@ print("Einde van het programma.")
 Let op de dubbele `==`.\
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Delen: zie takenbundel.
+![image](images/hardhat.png) [Delen](/taken/delen.html).
 
 <a class="btn" href="./12_else.html">&#9194; Else</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

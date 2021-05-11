@@ -36,11 +36,11 @@ Je bewaart en voert uit.
 -   Als je een temperatuur intikt tussen 0 en -40 zie je
     `Doe een dikke jas aan`.
 
-![image](images/hardhat.png) VDAB: zie takenbundel\
-![image](images/hardhat.png) Grootste: zie takenbundel\
-![image](images/hardhat.png) Examens: zie takenbundel\
-![image](images/hardhat.png) Schrikkeljaar: zie takenbundel\
-![image](images/hardhat.png) Kindergeld: zie takenbundel
+![image](images/hardhat.png) [VDAB](/taken/vdab.html)\
+![image](images/hardhat.png) [Grootste](/taken/grootste.html)\
+![image](images/hardhat.png) [Examens](/taken/examens.html)\
+![image](images/hardhat.png) [Schrikkeljaar](/taken/schrikkeljaar.html)\
+![image](images/hardhat.png) [Kindergeld](/taken/kindergeld.html)
 
 <a class="btn" href="./14_orenand.html">&#9194; Or en And</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

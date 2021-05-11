@@ -53,7 +53,7 @@ Vervang de regel in je programma door volgende regels:
     print(mijnLengte > lengteBuurman)
 
 Je bewaart en voert uit.\
-[Let op:]{.ul} Als je de instructie `float()` niet gebruikt, gaat Python
+**Let op:** Als je de instructie `float()` niet gebruikt, gaat Python
 de getallen alfabetisch vergelijken: 11 is dan bijvoorbeeld kleiner dan
 2, omdat 1 voor 2 komt.
 
@@ -79,7 +79,7 @@ Je bewaart en voert uit. De tweede uitvoer is `False`.\
 Het is onwaar (False) dat de string _limonade_ alfabetisch
 voor de string _bier_ komt.
 
-![image](images/hardhat.png) Vergelijken: zie takenbundel.
+![image](images/hardhat.png) [Vergelijken](/taken/vergelijken.html).
 
 <a class="btn" href="./09_concateneren.html">&#9194; Concateneren</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
