@@ -6,4 +6,4 @@ print("word")
 print("programmeur")
 ```
 
-[Terug naar opdracht](/taken/programmeur.md)
+[Terug naar opdracht](/taken/programmeur.html)

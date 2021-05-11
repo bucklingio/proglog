@@ -13,5 +13,5 @@ bedoeling dat je de voorbeeldoplossing overtikt! Het is wel de bedoeling
 dat je het programma zelf maakt.\
 Je vergelijkt daarna je oplossing met de voorbeeldoplossing.
 
-[Oplossing](/oplossingen/programmeur.md)
-[Terug naar cursus](/01_inleiding.md)
+[Oplossing](/oplossingen/programmeur.html)
+[Terug naar cursus](/01_inleiding.html)

@@ -103,7 +103,7 @@ Taak
 ----
 
 ![image](images/hardhat.png)
-Programmeur : zie takenbundel
+[Programmeur](/taken/programmeur.html)
 
 <a class="btn" href="./01_inleiding.html">&#9194; Inleiding</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
