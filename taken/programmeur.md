@@ -14,4 +14,4 @@ dat je het programma zelf maakt.\
 Je vergelijkt daarna je oplossing met de voorbeeldoplossing.
 
 [Oplossing](/oplossingen/programmeur.html)
-[Terug naar cursus](/01_inleiding.html)
+[Terug naar cursus](/02_eersteprogramma.html)

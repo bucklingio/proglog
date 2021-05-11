@@ -41,7 +41,7 @@ print((2 + 3) * 4)
 Je bewaart en voert het programma uit. In je uitvoer zie je onderaan de
 getallen 14 en 20.
 
-![image](images/hardhat.png) Percentage: zie takenbundel.
+![image](images/hardhat.png) [Percentage](/taken/percentage.html).
 
 <a class="btn" href="./04_getallen.html">&#9194; Getallen</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

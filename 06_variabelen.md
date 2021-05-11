@@ -94,7 +94,7 @@ print(voornaam)
 print(aantalKinderen)
 print(gehuwd)
 ```
-![image](images/hardhat.png) Film: zie takenbundel.
+![image](images/hardhat.png) [Film](/taken/film.html).
 
 Wijzigen
 --------
@@ -143,7 +143,7 @@ terminalvenster:
 480
 ```
 
-![image](images/hardhat.png) Lotto: zie takenbundel.
+![image](images/hardhat.png) [Lotto](/taken/lotto.html).
 
 <a class="btn" href="./05_meerderebewerkingen.html">&#9194; Meerdere bewerkingen</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

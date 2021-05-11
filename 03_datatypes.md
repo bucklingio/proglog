@@ -40,7 +40,7 @@ In Python schrijf je True en False altijd met een hoofdletter.\
 We noemen bij programmeren een logische waarde ook een *boolean* waarde.
 
 ![image](images/hardhat.png) 
-Datatypes: zie takenbundel.
+[Datatypes](/taken/datatypes.html).
 
 <a class="btn" href="./02_eersteprogramma.html">&#9194; Eerste Programma</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

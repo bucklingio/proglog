@@ -60,7 +60,7 @@ print(5 * 3)
 print(13 % 5)
 ```
 
-![image](images/hardhat.png) Vermenigvuldigen: zie takenbundel.
+![image](images/hardhat.png) [Vermenigvuldigen](/taken/vermenigvuldigen.html).
 
 <a class="btn" href="./03_datatypes.html">&#9194; Datatypes</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
