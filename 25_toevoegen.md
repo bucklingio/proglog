@@ -49,12 +49,12 @@ for voornaam in voornamen:
     print(voornaam)
 ```
 
-![image](images/hardhat.png) Tafel list: zie takenbundel.\
-![image](images/hardhat.png) Omgekeerd: zie takenbundel.\
-![image](images/hardhat.png) Aantal voorkomens: zie takenbundel.\
-![image](images/hardhat.png) Willekeurige volgorde: zie takenbundel.\
-![image](images/hardhat.png) Uniek: : zie takenbundel.\
-![image](images/hardhat.png) Biljetten en munten: zie takenbundel.
+![image](images/hardhat.png) [Tafel list](/taken/tafellist.html).\
+![image](images/hardhat.png) [Omgekeerd](/taken/omgekeerd.html).\
+![image](images/hardhat.png) [Aantal voorkomens](/taken/aantalvoorkomens.html).\
+![image](images/hardhat.png) [Willekeurige volgorde](/taken/willekeurigevolgorde.html).\
+![image](images/hardhat.png) [Uniek](/taken/uniek.html).\
+![image](images/hardhat.png) [Biljetten en munten](/taken/biljettenenmunten.html).
 
 <a class="btn" href="./24_forin.html">&#9194; For in</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

@@ -21,8 +21,9 @@ Je kan met `for in` elementen lezen, maar niet *wijzigen*.\
 Je kan de instructie `reversed()` gebruiken om in een list van achter
 naar voor te itereren.
 
-![image](images/hardhat.png) List totaal: zie takenbundel.\
-![image](images/hardhat.png) List oneven: zie takenbundel.
+![image](images/hardhat.png) [List totaal](/taken/listtotaal.html).\
+![image](images/hardhat.png) [List even oneven](/taken/listevenoneven.html).\
+![image](images/hardhat.png) [List wijzigen](/taken/listwijzigen.html)
 
 <a class="btn" href="./23_list.html">&#9194; List</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

@@ -49,9 +49,9 @@ toonSteden(grootsteStedenVanNederland())
 
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Vanaf gemiddelde: zie takenbundel.\
-![image](images/hardhat.png) Unieke invoer: zie takenbundel.\
-![image](images/hardhat.png) Mastermind: zie takenbundel.
+![image](images/hardhat.png) [Vanaf gemiddelde](/taken/vanafgemiddelde.html).\
+![image](images/hardhat.png) [Unieke invoer](/taken/uniekeinvoer.html).\
+![image](images/hardhat.png) [Mastermind](/taken/mastermind.html).
 
 <a class="btn" href="./25_toevoegen.html">&#9194; Toevoegen</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

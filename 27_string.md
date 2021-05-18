@@ -33,10 +33,10 @@ for i in range(aantalTekens):
 ```
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Aantal spaties: zie takenbundel.\
-![image](images/hardhat.png) Palindroom: zie takenbundel.\
-![image](images/hardhat.png) Aantal woorden: zie takenbundel.\
-![image](images/hardhat.png) Saus: zie takenbundel.
+![image](images/hardhat.png) [Aantal spaties](/taken/aantalspaties.html).\
+![image](images/hardhat.png) [Palindroom](/taken/palindroom.html).\
+![image](images/hardhat.png) [Aantal woorden](/taken/aantalwoorden.html).\
+![image](images/hardhat.png) [Saus](/taken/saus.html).
 
 <a class="btn" href="./26_listsenfuncties.html">&#9194; Lists en functies</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

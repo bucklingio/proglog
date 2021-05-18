@@ -47,13 +47,13 @@ Je kan binnen een `for` instructie een `while` instructie nesten.\
 Je kan ook binnen een `if` een `for` nesten en daarin een `while`,
 etc...
 
-![image](images/hardhat.png) Tafel: zie takenbundel.\
-![image](images/hardhat.png) Som even: zie takenbundel.\
-![image](images/hardhat.png) Vijf getallen: zie takenbundel.\
-![image](images/hardhat.png) Termijnrekening: zie takenbundel.\
-![image](images/hardhat.png) Rechthoek tekenen: zie takenbundel.\
-![image](images/hardhat.png) Kader tekenen: zie takenbundel.\
-![image](images/hardhat.png) Driehoek tekenen: zie takenbundel.
+![image](images/hardhat.png) [Tafel](/taken/tafel.html).\
+![image](images/hardhat.png) [Som even](/taken/someven.html).\
+![image](images/hardhat.png) [Vijf getallen](/taken/vijfgetallen.html).\
+![image](images/hardhat.png) [Termijnrekening](/taken/termijnrekening.html).\
+![image](images/hardhat.png) [Rechthoek tekenen](/taken/rechthoektekenen.html).\
+![image](images/hardhat.png) [Kader tekenen](/taken/kadertekenen.html).\
+![image](images/hardhat.png) [Driehoek tekenen](/taken/driehoektekenen.html).
 
 <a class="btn" href="./17_nognesten.html">&#9194; Nog nesten</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

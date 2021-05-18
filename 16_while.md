@@ -61,7 +61,7 @@ bevatten.\
 Opmerking: een synoniem voor herhalen is *itereren*. Een synoniem voor
 herhaling is *iteratie*.
 
-![image](images/hardhat.png) Gemiddelde: zie takenbundel.
+![image](images/hardhat.png) [Gemiddelde](/taken/gemiddelde.html).
 
 <a class="btn" href="./15_nesten.html">&#9194; Nesten</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

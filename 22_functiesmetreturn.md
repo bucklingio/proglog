@@ -54,9 +54,9 @@ Je programma bewaart deze waarde in de variabele `grootsteGetal`.\
 Daarna gebruikt je programma deze variabele om het kwadraat te berekenen
 en op het scherm te tonen.
 
-![image](images/hardhat.png) Machtsverheffing 2: zie takenbundel.\
-![image](images/hardhat.png) Grootste even: zie takenbundel.\
-![image](images/hardhat.png) Grootste gemene deler: zie takenbundel.
+![image](images/hardhat.png) [Machtsverheffing 2](/taken/machtsverheffing2.html)\
+![image](images/hardhat.png) [Grootste even](/taken/grootsteeven.html)\
+![image](images/hardhat.png) [Grootste gemene deler](/taken/grootstegemenedeler.html)
 
 <a class="btn" href="./21_parameter.html">&#9194; Parameter</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

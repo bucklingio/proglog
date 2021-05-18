@@ -36,8 +36,8 @@ toont.
 
 Je kan binnen een `elif` reeks ook nesten.
 
-![image](images/hardhat.png) Afstanden: zie takenbundel.\
-![image](images/hardhat.png) Rekenmachine: : zie takenbundel.
+![image](images/hardhat.png) [Afstanden](/taken/afstanden.html)\
+![image](images/hardhat.png) [Rekenmachine](/taken/rekenmachine.html).
 
 <a class="btn" href="./18_for.html">&#9194; For</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

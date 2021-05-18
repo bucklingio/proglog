@@ -44,11 +44,11 @@ Je ziet in het programma een `while` instructie met een geneste `if`
 instructie.\
 Je bewaart en test het programma.
 
-![image](images/hardhat.png) Korting: zie takenbundel.\
-![image](images/hardhat.png) Temperaturen: zie takenbundel.\
-![image](images/hardhat.png) Hoger Lager: zie takenbundel.\
-![image](images/hardhat.png) Priemgetal: zie takenbundel.\
-![image](images/hardhat.png) KMI: zie takenbundel.
+![image](images/hardhat.png) [Korting](/taken/korting.html).\
+![image](images/hardhat.png) [Temperaturen](/taken/temperaturen.html).\
+![image](images/hardhat.png) [Hoger Lager](/taken/hogerlager.html).\
+![image](images/hardhat.png) [Priemgetal](/taken/priemgetal.html).\
+![image](images/hardhat.png) [KMI](/taken/kmi.html).
 
 <a class="btn" href="./16_while.html">&#9194; While</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

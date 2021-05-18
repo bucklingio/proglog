@@ -121,7 +121,7 @@ for voornaam in persoon.get("voornamen"):
     print(voornaam)
 ```
 
-![image](images/hardhat.png) BMI: zie takenbundel.
+![image](images/hardhat.png) [BMI](/taken/bmi.html).
 
 <a class="btn" href="./28_unicode.html">&#9194; Unicode</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

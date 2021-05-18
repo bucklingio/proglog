@@ -136,7 +136,7 @@ ingrediënten te zien of de bereiding te zien.
 
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) België: zie takenbundel.
+![image](images/hardhat.png) [België](/taken/belgie.html).
 
 Je kan in een functie alle instructies gebruiken die je al kent.\
 Je maakt een voorbeeld. De gebruiker tikt in het hoofdprogramma een
@@ -195,7 +195,7 @@ ajuinSoep()
 
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Geluk: zie takenbundel.
+![image](images/hardhat.png) [Geluk](/taken/geluk.html).
 
 <a class="btn" href="./19_elif.html">&#9194; Elif</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

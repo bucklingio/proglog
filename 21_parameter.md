@@ -9,7 +9,7 @@ Je voegt in het hoofdprogramma volgende regel toe:
 ...
 getal = int(input("Getal: "))
 tweedeGetal = int(input("Tweede getal: "))
-(*\textcolor{gray}{evenOneven()}*)
+evenOneven()
 ```
 Je kan de functie niet oproepen om te zeggen of dit tweede getal even of
 oneven is.\
@@ -79,38 +79,8 @@ Je voegt, met een `for`, `aantal` keer `teken` aan `lijn` toe.\
 Daarna toon je `lijn` op het scherm.\
 Je bewaart en voert uit.
 
-![image](images/hardhat.png) Tussen: zie takenbundel\
-![image](images/hardhat.png) Machtsverheffing: zie takenbundel
-
-Meerdere parameters
--------------------
-
-Een functie kan *meerdere* parameters hebben. Het *type* van de
-parameters kan verschillen.\
-Voorbeeld: Je maakt een procedure die een lijn tekent.\
-De eerste parameter is het *teken* waarmee je de lijn tekent.\
-De tweede parameter is het *aantal* tekens in de lijn.\
-Je maakt het bestand _tekenlijn.py_:
-
-```python
-def tekenLijn(teken, aantal):
-    lijn = ""
-    for i in range(1, aantal + 1):
-        lijn += teken
-    print(lijn)
-
-
-tekenLijn("=", 5)
-tekenLijn("-", 10)
-```
-
-Je begint met de lege string `lijn`.\
-Je voegt, met een `for`, `aantal` keer `teken` aan `lijn` toe.\
-Daarna toon je `lijn` op het scherm.\
-Je bewaart en voert uit.
-
-![image](images/hardhat.png) Tussen: zie takenbundel\
-![image](images/hardhat.png) Machtsverheffing: zie takenbundel
+![image](images/hardhat.png) [Tussen](/taken/tussen.html)\
+![image](images/hardhat.png) [Machtsverheffing](/taken/machtsverheffing.html)
 
 <a class="btn" href="./20_functies.html">&#9194; Functies</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

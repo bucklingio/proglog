@@ -80,8 +80,8 @@ for i in range(len(woord)):
 print(hoofdletterWoord)
 ```
 
-![image](images/hardhat.png) Naar kleine letters: zie takenbundel.\
-![image](images/hardhat.png) Letter statistiek: zie takenbundel.
+![image](images/hardhat.png) [Naar kleine letters](/taken/naarkleineletters.html).\
+![image](images/hardhat.png) [Letter statistiek](/taken/letterstatistiek.html).
 
 <a class="btn" href="./27_string.html">&#9194; String</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
