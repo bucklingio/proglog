@@ -1,10 +1,23 @@
 ## Unieke invoer
 
-Maak een programma _uniekeinvoer.py_.\
-De gebruiker tikt 5 getallen. Als de gebruiker een getal tikt dat hij
-reeds getikt heeft, toont je programma de foutmelding
-`Getal reeds ingetikt, probeer opnieuw.` De gebruiker probeert opnieuw
-tot hij een getal tikt dat hij nog niet tikte.\
-Je toont op het einde de ingetikte getallen.
+```python
+def isNietUniek(array, invoer):
+    for element in array:
+        if element == invoer:
+            return True
+    return False
 
+getallen = []
+for teller in range (5):
+    invoer = int(input("Getal: "))
+    while isNietUniek(getallen, invoer):
+        print("Getal reeds ingetikt, probeer opnieuw.")
+        invoer = int(input("Getal: "))
+    getallen.append(invoer)
+
+for getal in getallen:
+    print(getal)
+```
+
+[Terug naar opdracht](/taken/uniekeinvoer.html)
 [Terug naar cursus](/26_listsenfuncties.html)

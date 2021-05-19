@@ -1,14 +1,13 @@
 ## Driehoek tekenen
 
-Maak een programma _driehoektekenen.py_.\
-De gebruiker tikt de hoogte van een driehoek. De breedte is gelijk aan
-de hoogte. Je programma tekent deze driehoek met sterretjes.\
-Als de gebruiker 5 tikt tekent je programma:
+```python
+hoogte = int(input("Hoogte: "))
+for hoogteTeller in range(hoogte):
+    tekenString = ""
+    for lengteTeller in range(hoogteTeller+1):
+        tekenString += "*"
+    print(tekenString)
+```
 
-      *
-      **
-      ***
-      ****
-      *****
-
+[Terug naar opdracht](/taken/driehoektekenen.html)
 [Terug naar cursus](/18_for.html)

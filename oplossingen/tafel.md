@@ -1,12 +1,10 @@
 ## Tafel
 
-Maak een programma _tafel.py_.\
-Je programma toont de tafel van vermenigvuldiging van een getal. De
-gebruiker tikt een getal, bijvoorbeeld 7. Je programma toont daarna:
+```python
+getal = int(input("Getal: "))
+for teller in range(1, 11):
+    print (teller, "x", getal, "=", teller * getal)
+```
 
-      1 x 7 = 7 
-      2 x 7 = 14
-      ...
-      10 x 7 = 70
-
+[Terug naar opdracht](/taken/tafel.html)
 [Terug naar cursus](/18_for.html)

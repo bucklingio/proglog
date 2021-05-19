@@ -9,4 +9,5 @@ Het derde getal is een willekeurig getal tussen 21 en 30.\
 Je programma toont één per één de elementen. Je toont daarna de som van
 de elementen.
 
+[Oplossing](/oplossingen/listtotaal.html)
 [Terug naar cursus](/24_forin.html)

@@ -17,4 +17,5 @@ Als hij 3 kiest, toont je programma de afstand in feet (= centimeters x
 0.0328084).\
 Als hij een ander getal tikt, toont je programma `Verkeerde keuze.`
 
+[Oplossing](/oplossingen/afstanden.html)
 [Terug naar cursus](/19_elif.html)

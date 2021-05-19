@@ -1,8 +1,17 @@
 ## Gemiddelde
 
-Maak een programma _gemiddelde.py_.\
-De gebruiker tikt getallen tot hij 0 tikt. Jij toont daarna het
-gemiddelde van die getallen. Je toont geen gemiddelde als de gebruiker
-onmiddellijk 0 tikt.
+```python
+som = 0
+aantal = 0
+getal = float(input("Getal: "))
+while getal != 0:
+    som += getal
+    aantal += 1
+    getal = float(input("Getal: "))
+if aantal != 0:
+    gemiddelde = som / aantal
+    print("Gemiddelde: ", round(gemiddelde, 2))
+```
 
+[Terug naar opdracht](/taken/gemiddelde.html)
 [Terug naar cursus](/16_while.html)

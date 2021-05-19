@@ -14,4 +14,5 @@ programma:
       3
       10
 
+[Oplossing](/oplossingen/omgekeerd.html)
 [Terug naar cursus](/25_toevoegen.html)

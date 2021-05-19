@@ -19,4 +19,5 @@ instructie geeft de deling van twee getallen, zonder de cijfers na de
 komma.\
 Voorbeeld: `12 // 5` toont `2` (2,4 zonder decimalen).
 
+[Oplossing](/oplossingen/biljettenenmunten.html)
 [Terug naar cursus](/25_toevoegen.html)

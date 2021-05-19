@@ -6,4 +6,5 @@ Woorden worden van mekaar gescheiden door één of meerdere spaties. Je
 moet geen rekening houden met andere leestekens, zoals punten,
 komma's...
 
+[Oplossing](/oplossingen/aantalwoorden.html)
 [Terug naar cursus](/27_string.html)

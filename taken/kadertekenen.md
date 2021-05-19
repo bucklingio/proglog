@@ -10,4 +10,5 @@ Als de lengte 5 is en de breedte 4, tekent je programma:
       .   .
       .....
 
+[Oplossing](/oplossingen/kadertekenen.html)
 [Terug naar cursus](/18_for.html)

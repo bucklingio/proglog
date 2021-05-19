@@ -13,4 +13,5 @@ variabele `index`.\
 Je wijzigt dit element naar een willekeurig getal tussen 101 en 200. Je
 programma toont het element opnieuw.
 
+[Oplossing](/oplossingen/randomlist.html)
 [Terug naar cursus](/23_list.html)

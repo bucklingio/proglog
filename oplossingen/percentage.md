@@ -1,8 +1,8 @@
 ## Percentage
 
-Maak een programma _percentage.py_.\
-Een student behaalt op een proef 16 op 20. Bereken zijn percentage. Het
-juiste percentage is 80.
+```python
+print(16 / 20 * 100)
+```
 
-[Oplossing](/oplossingen/percentage.html)
+[Terug naar opdracht](/taken/percentage.html)
 [Terug naar cursus](/05_meerderebewerkingen.html)

@@ -12,4 +12,5 @@ Hint: je gebruikt een list met 26 elementen. Je houdt in het eerste
 element bij hoeveel keer de letter a voorkomt. Je houdt in het tweede
 element bij hoeveel keer de letter b voorkomt, ...
 
+[Oplossing](/oplossingen/letterstatistiek.html)
 [Terug naar cursus](/28_unicode.html)

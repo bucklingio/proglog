@@ -1,8 +1,25 @@
 ## Aantal voorkomens
 
-Maak een programma _aantalvoorkomens.py_.\
-Je programma toont 7 willekeurige getallen tussen 1 en 5. De gebruiker
-tikt dan een getal. Je programma toont hoeveel keer dit getal voorkomt
-in de 7 getallen die je toonde.
+```python
+import random
 
+getallen = []
+aantalKeer = 0
+
+for teller in range(7):
+    getallen.append(random.randint(1, 5))
+
+for element in getallen:
+    print(element)
+
+getal = int(input("Getal: "))
+
+for element in getallen:
+    if element == getal:
+        aantalKeer += 1
+
+print(aantalKeer)
+```
+
+[Terug naar opdracht](/taken/aantalvoorkomens.html)
 [Terug naar cursus](/25_toevoegen.html)

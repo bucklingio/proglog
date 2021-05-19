@@ -17,4 +17,5 @@ Je roept de functie op in je hoofdprogramma. Je geeft het resultaat van
 de eerste functie als eerste parameter. Je geeft het resultaat van de
 tweede functie als tweede parameter.
 
+[Oplossing](/oplossingen/vanafgemiddelde.html)
 [Terug naar cursus](/26_listsenfuncties.html)

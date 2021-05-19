@@ -9,4 +9,5 @@ gebruiker tikt een getal, bijvoorbeeld 7. Je programma toont daarna:
       ...
       10 x 7 = 70
 
+[Oplossing](/oplossingen/tafel.html)
 [Terug naar cursus](/18_for.html)

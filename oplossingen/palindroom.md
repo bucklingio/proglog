@@ -1,10 +1,19 @@
 ## Palindroom
 
-Maak een programma _palindroom.py_.\
-De gebruiker tikt een woord. Als dit woord een palindroom is toon je de
-tekst `Palindroom`. Anders toont je de tekst `Geen palindroom`.\
-Een woord is een palindroom als het woord van achter naar voor gelezen
-hetzelfde is als van voor naar achter. Het woord lepel is een
-palindroom.
+```python
+def isPalindroom(woord):
+    for i in range(len(woord)//2):
+        if woord[i] != woord[len(woord) - 1 - i]:
+            return False
+        else:
+            return True
 
+woord = input("Woord: ")
+if isPalindroom(woord):
+    print("Palindroom.")
+else:
+    print("Geen palindroom.")
+```
+
+[Terug naar opdracht](/taken/palindroom.html)
 [Terug naar cursus](/27_string.html)

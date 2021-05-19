@@ -1,12 +1,16 @@
 ## VDAB
 
-Maak een programma _vdab.py_.\
-Vraag aan de gebruiker of hij werk heeft (ja/nee). Als hij `ja`
-antwoordt, toon je de tekst `Veel werkplezier.`\
-Anders vraag je de gebruiker of hij een opleiding wil volgen. Als hij
-`ja` antwoordt, toon je de tekst
-`Je vindt opleidingen op www.vdab.be/opleidingen.`\
-Anders toon je: `Je vindt vacatures op www.vdab.be/jobs.`
+```python
+werk = input("Heb je werk (ja/nee)? ")
+if werk == "ja":
+    print("Veel werkplezier.")
+else:
+    opleiding = input("Wil je een opleiding volgen (ja/nee)? ")
+    if opleiding == "ja":
+        print("Je vindt opleidingen op www.vdab.be/opleidingen.")
+    else:
+        print("Je vindt vacatures op www.vdab.be/vacatures.")
+```
 
-[Oplossing](/oplossingen/vdab.html)
+[Terug naar opdracht](/taken/vdab.html)
 [Terug naar cursus](/15_nesten.html)

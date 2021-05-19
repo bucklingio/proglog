@@ -1,8 +1,12 @@
 ## Leeftijd
 
-Maak een programma _leeftijd.py_.\
-De gebruiker tikt een leeftijd. Als de leeftijd tussen 0 en 130 ligt
-toon je de tekst `OK.` Anders toon je de tekst `Onmogelijk.`
+```python
+leeftijd = int(input("Leeftijd: "))
+if leeftijd >= 0 and leeftijd <= 130:
+    print("OK")
+else:
+    print("Onmogelijk")
+```
 
-[Oplossing](/oplossingen/leeftijd.html)
+[Terug naar opdracht](/taken/leeftijd.html)
 [Terug naar cursus](/14_orenand.html)

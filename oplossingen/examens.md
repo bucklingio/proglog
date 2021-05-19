@@ -1,12 +1,19 @@
 ## Examens
 
-Maak een programma _examens.py_.\
-De gebruiker tikt de examenuitslagen voor de vakken wiskunde, boekhouden
-en informatica. Elk vak staat op 10 punten.\
-De student is geslaagd als hij voor wiskunde minstens 6/10 haalt en voor
-boekhouden en informatica samen minstens 12/20.\
-Toon of de student geslaagd is. Als de student niet geslaagd is, toon je
-de reden.
+```python
+wiskunde = int(input("Geef de punten voor wiskunde: "))
+boekhouden = int(input("Geef de punten voor boekhouden: "))
+informatica = int(input("Geef de punten voor informatica: "))
 
-[Oplossing](/oplossingen/examens.html)
+if wiskunde >= 6 and boekhouden + informatica >= 12:
+    print("De student is geslaagd.")
+else:
+    print("De student is niet geslaagd.")
+    if wiskunde < 6:
+        print("De student is niet geslaagd voor wiskunde.")
+    if boekhouden + informatica < 12:  
+        print("De student is niet geslaagd voor boekhouden en informatica.")
+```
+
+[Terug naar opdracht](/taken/examens.html)
 [Terug naar cursus](/15_nesten.html)

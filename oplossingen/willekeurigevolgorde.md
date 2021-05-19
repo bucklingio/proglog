@@ -1,7 +1,21 @@
 ## Willekeurige volgorde
 
-Maak een programma _willekeurigevolgorde.py_.\
-Je programma toont de getallen 1 tot en met 5 in willekeurige volgorde.
-Telkens je het programma uivoert kan volgorde dus anders zijn.
+```python
+import random
 
+getallen = []
+for teller in range(5):
+    getallen.append(0)
+
+for getal in range(5):
+    index = random.randint(0, 4)
+    while getallen[index] != 0:
+        index = random.randint(0, 4)
+    getallen[index] = getal + 1
+
+for element in getallen:
+    print(element)
+```
+
+[Terug naar opdracht](/taken/willekeurigevolgorde.html)
 [Terug naar cursus](/25_toevoegen.html)

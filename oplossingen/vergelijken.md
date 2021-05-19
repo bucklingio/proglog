@@ -1,7 +1,8 @@
 ## Vergelijken
 
-Maak een programma _vergelijken.py_.\
-Controleer of `4.6` kleiner of gelijk is aan 5. Je toont het resultaat.\
+```python
+print(4.6 <= 5)
+```
 
-[Oplossing](/oplossingen/vergelijken.html)
+[Terug naar opdracht](/taken/vergelijken.html)
 [Terug naar cursus](/10_vergelijken.html)

@@ -12,4 +12,5 @@ programma toont het resultaat.\
 Je roept in het hoofdprogramma de functie op met de waarde 6. Je
 programma toont het resultaat.
 
+[Oplossing](/oplossingen/grootsteeven.html)
 [Terug naar cursus](/22_functiesmetreturn.html)

@@ -10,4 +10,6 @@ Als de lengte 5 is en de breedte 3, tekent je programma:
       *****
       *****
 
+
+[Oplossing](/oplossingen/rechthoektekenen.html)
 [Terug naar cursus](/18_for.html)

@@ -1,12 +1,13 @@
 ## Termijnrekening
 
-Maak een programma _termijnrekening.py_.\
-Je programma vraagt het beginkapitaal, de looptijd en het jaarlijks
-intrestpercentage van een termijnrekening. Je toont per jaar de waarde
-van de termijnrekening.\
-Voorbeeld: beginkapitaal: 1000, looptijd: 2, intrestpercentage: 5.
+```python
+beginkapitaal = float(input("Beginkapitaal: "))
+looptijd = int(input("Looptijd in jaren: "))
+intrestPercentage = float(input("Intrest in procent: "))
+for jaar in range (1, looptijd + 1):
+    beginkapitaal += beginkapitaal * intrestPercentage / 100
+    print("Jaar", jaar, ":", round(beginkapitaal, 2))
+```
 
-      Jaar 1: 1050
-      Jaar 2: 1102.5
-
+[Terug naar opdracht](/taken/vijfgetallen.html)
 [Terug naar cursus](/18_for.html)

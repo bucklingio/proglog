@@ -11,4 +11,5 @@ Als de gebruiker 5 tikt tekent je programma:
       ****
       *****
 
+[Oplossing](/oplossingen/driehoektekenen.html)
 [Terug naar cursus](/18_for.html)

@@ -18,4 +18,5 @@ Je programma toont volgende tekst:
 
 Je splitst het programma op in drie functies.
 
+[Oplossing](/oplossingen/belgie.html)
 [Terug naar cursus](/20_functies.html)

@@ -9,4 +9,5 @@ De gebruiker tikt in het hoofdprogramma twee getallen. Je programma
 roept de functie op en geeft de twee getallen als parameters.\
 Je programma toont de waarde die de functie teruggeeft.
 
+[Oplossing](/oplossingen/machtsverheffing2.html)
 [Terug naar cursus](/22_functiesmetreturn.html)

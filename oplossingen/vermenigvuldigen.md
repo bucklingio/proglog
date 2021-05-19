@@ -1,7 +1,8 @@
 ## Vermenigvuldigen
 
-Maak een programma _vermenigvuldigen.py_ dat toont hoeveel
-3 maal 4 is.\
+```python
+print(3 * 4)
+```
 
-[Oplossing](/oplossingen/vermenigvuldigen.html)
+[Terug naar opdracht](/taken/vermenigvuldigen.html)
 [Terug naar cursus](/04_getallen.html)

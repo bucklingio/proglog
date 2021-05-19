@@ -1,6 +1,11 @@
 ## Som even
 
-Maak een programma _someven.py_.\
-Je programma toont de som van de positieve even getallen tot en met 10.
-
+```python
+somEven = 0
+for teller in range (1, 11):
+    if teller % 2 == 0:
+        somEven += teller
+print(somEven)
+```
+[Terug naar opdracht](/taken/someven.html)
 [Terug naar cursus](/18_for.html)

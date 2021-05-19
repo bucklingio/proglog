@@ -1,21 +1,28 @@
 ## België
 
-Maak een programma _belgie.py_.\
-Je programma toont volgende tekst:
+```python
+def toonTalen():
+    print("TALEN")
+    print("Nederlands")
+    print("Frans")
+    print("Duits")
 
-      TALEN:
-      Nederlands
-      Frans
-      Duits
-      GEWESTEN:
-      Vlaams
-      Waals
-      Brussels
-      GEMEENSCHAPPEN:
-      Nederlandstalig
-      Franstalig
-      Duitstalig
+def toonGewesten():
+    print("GEWESTEN")
+    print("Vlaams")
+    print("Waals")
+    print("Brussels")
 
-Je splitst het programma op in drie functies.
+def toonGemeenschappen():
+    print("GEMEENSCHAPPEN")
+    print("Nederlandstalig")
+    print("Franstalig")
+    print("Duitstalig")
 
+toonTalen()
+toonGewesten()
+toonGemeenschappen()
+```
+
+[Terug naar opdracht](/taken/belgie.html)
 [Terug naar cursus](/20_functies.html)

@@ -7,4 +7,5 @@ Een woord is een palindroom als het woord van achter naar voor gelezen
 hetzelfde is als van voor naar achter. Het woord lepel is een
 palindroom.
 
+[Oplossing](/oplossingen/palindroom.html)
 [Terug naar cursus](/27_string.html)

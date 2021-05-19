@@ -1,7 +1,9 @@
 ## Geluksgetallen
 
-Maak een programma _geluksgetallen.py_.\
-Je maakt een list met de getallen 3, 7 en 10. Je programma toont het
-laatste element.
+```python
+geluksGetallen = [3, 7, 10]
+print(geluksGetallen[2])
+```
 
+[Terug naar opdracht](/taken/geluksgetallen.html)
 [Terug naar cursus](/23_list.html)

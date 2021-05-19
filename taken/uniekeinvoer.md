@@ -7,4 +7,5 @@ reeds getikt heeft, toont je programma de foutmelding
 tot hij een getal tikt dat hij nog niet tikte.\
 Je toont op het einde de ingetikte getallen.
 
+[Oplossing](/oplossingen/uniekeinvoer.html)
 [Terug naar cursus](/26_listsenfuncties.html)

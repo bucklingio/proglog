@@ -1,8 +1,12 @@
 ## Even
 
-Maak een programma _even.py_.\
-De gebruiker tikt een getal. Als dit getal even is toon je de tekst
-`Even.` Anders toon je de tekst `Oneven.`
+```python
+getal = int(input("Getal: "))
+if getal % 2 == 0:
+    print("Even.")
+else:
+    print("Oneven.")
+```
 
-[Oplossing](/oplossingen/even.html)
+[Terug naar opdracht](/taken/even.html)
 [Terug naar cursus](/12_else.html)

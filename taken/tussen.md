@@ -8,4 +8,5 @@ De functie toont alle gehele getallen van `vanGetal` tot en met
 Voorbeeld: je roept de functie op met de parameters 3 en 5. De functie
 toont `3 4 5`.
 
+[Oplossing](/oplossingen/tussen.html)
 [Terug naar cursus](/21_parameter.html)

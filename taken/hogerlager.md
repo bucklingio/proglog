@@ -21,4 +21,5 @@ juiste getal intikt, toont je programma de tekst `Proficiat.`\
 Je toont ook het aantal beurten dat de gebruiker nodig had om het getal
 te raden.
 
+[Oplossing](/oplossingen/hogerlager.html)
 [Terug naar cursus](/17_nognesten.html)

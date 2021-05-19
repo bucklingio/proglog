@@ -1,10 +1,14 @@
 ## Korting
 
-Maak een programma _korting.py_.\
-De gebruiker tikt per bezoeker van een pretpark de leeftijd van de
-bezoeker. De gebruiker tikt 0 om te stoppen.\
-Je programma toont dan het aantal bezoekers dat korting kreeg.\
-Een bezoeker krijgt korting als zijn leeftijd lager is dan 7 of hoger
-dan 80.
+```python
+aantalKorting = 0
+leeftijdBezoeker = int(input("Leeftijd bezoeker: "))
+while leeftijdBezoeker != 0:
+    if leeftijdBezoeker < 7 or leeftijdBezoeker > 80:
+        aantalKorting += 1
+    leeftijdBezoeker = int(input("Leeftijd bezoeker: "))
+print("Aantal bezoekers met korting: ", aantalKorting)
+```
 
+[Terug naar opdracht](/taken/korting.html)
 [Terug naar cursus](/17_nognesten.html)

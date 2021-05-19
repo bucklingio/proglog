@@ -1,14 +1,18 @@
 ## Schrikkeljaar
 
-Maak een programma _schrikkeljaar.py_.\
-De gebruiker tikt een jaar (bijvoorbeeld 2020). Als het jaar een
-schrikkeljaar is, toon je `Schrikkeljaar.` Anders toon je
-`Geen schrikkeljaar.`\
-Een jaar is een schrikkeljaar als het deelbaar is door 4.\
-Hierop bestaat een uitzondering: een jaar dat deelbaar is door 100 is
-geen schrikkeljaar.\
-Hierop bestaat terug een uitzondering: een jaar dat deelbaar is door 400
-is wel een schrikkeljaar.
+```python
+jaar = int(input("Jaar: "))
+if jaar % 4 == 0:
+    if jaar % 100 == 0:
+        if jaar % 400 == 0:
+            print("Schrikkeljaar")
+        else:
+            print("Geen schrikkeljaar")
+    else:
+        print("Schrikkeljaar")
+else:
+    print("Geen schrikkeljaar")
+```
 
-[Oplossing](/oplossingen/schrikkeljaar.html)
+[Terug naar opdracht](/taken/schrikkeljaar.html)
 [Terug naar cursus](/15_nesten.html)
