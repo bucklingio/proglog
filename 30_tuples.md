@@ -7,8 +7,9 @@ Algemeen
 Tuples zijn verzamelingen van waarden, net zoals lists. Tuples kan je
 echter niet wijzigen, ze zijn **immutable**.\
 Je schrijft tuples met ronde haakjes.
-
-      mijnTuple = (45, 60, 75)
+```python
+mijnTuple = (45, 60, 75)
+```
 
 Voorbeeld
 ---------
@@ -20,7 +21,7 @@ Je maakt een programma dat
 
 2.  het element met index 0 op het scherm toont.
 
-Je maakt een nieuw bestand [voornamentuple.py]{.sans-serif}:
+Je maakt een nieuw bestand _voornamentuple.py_:
 
 ```python
 voornamen = ("Ann", "Jos", "Mia")
@@ -43,7 +44,7 @@ Je bewaart en voert uit.
 Immutable
 ---------
 
-Je maakt een nieuw bestand [werknemerstuple.py]{.sans-serif}.\
+Je maakt een nieuw bestand _werknemerstuple.py_.\
 Je maakt een tuple met de namen van de werknemers van een firma.
 
 ```python
@@ -83,7 +84,7 @@ For in
 
 De instructie `for ... in` leest in een iteratie één per één alle tuple
 elementen.\
-Je maakt een nieuw bestand [for-in-tuple.py]{.sans-serif}
+Je maakt een nieuw bestand _for-in-tuple.py_.
 
 ```python
 voornamen = ("Ann", "Jos", "Mia")

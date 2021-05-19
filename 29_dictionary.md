@@ -54,8 +54,9 @@ print(rechthoek.get("lengte"), rechthoek.get("breedte"), rechthoek.get("kleur"))
 Let op met het gebruik van attributen in f-strings! Gebruik in een
 f-string nooit dubbele aanhalingstekens voor je key, maar enkele
 aanhalingstekens:
-
-      mijnString = f"De value is {mijnDict['mijnKey']}"
+```python
+mijnString = f"De value is {mijnDict['mijnKey']}"
+```
 
 Een key in een dictionary is **altijd uniek**.
 

@@ -16,7 +16,7 @@ Je kan het korter uitwerken met de `for` instructie.
     for getal in range(1, 11):
         print(getal)    
 
-Let op: de eindwaarde (het tweede getal) in `range()` in Python is
+**Let op**: de eindwaarde (het tweede getal) in `range()` in Python is
 altijd **exclusief**.\
 Deze wordt dus nooit uitgevoerd.\
 De iteratie stopt als de variabele de eindwaarde bereikt heeft.\
@@ -27,20 +27,23 @@ Je kan aan de `range()` nog een derde waarde meegeven: deze waarde
 bepaalt met hoeveel je de variabele verhoogt bij elke iteratie.\
 Als je de *oneven* getallen tot 10 wil tonen, verhoog je het getal
 telkens met 2:
-
+```python
     for getal in range(1, 11, 2):
         print(getal)    
+```
 
 Je kan ook het getal bij 10 starten en telkens met 1 verminderen om de
 getallen omgekeerd te tonen.
-
+```python
         for getal in range(10, 0, -1):
             print(getal)    
+```
 
 Je kan hiervoor ook de instructie `reversed()` gebruiken:
-
+```python
     for getal in reversed(range(1, 11)):
         print(getal)    
+```
 
 Je kan binnen een `for` instructie een `if` instructie nesten.\
 Je kan binnen een `for` instructie een `while` instructie nesten.\

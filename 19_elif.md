@@ -28,11 +28,12 @@ Als de gebruiker een landcode intikt die verschilt van `BE`, `NL` en
 `FR` laat het programma niets zien.\
 Je voegt een regel toe, zodat je programma de tekst `Onbekende code`
 toont.
-
-       ...
-       (*\textcolor{gray}{print("Frankrijk")}*)
-    else:
-        print("Onbekende code.")
+```python
+    ...
+    print("Frankrijk")
+else:
+    print("Onbekende code.")
+```
 
 Je kan binnen een `elif` reeks ook nesten.
 

@@ -120,20 +120,20 @@ functies.\
 Het hoofdprogramma kan ook uitgebreider zijn.\
 Je wijzigt het hoofdprogramma zodat de gebruiker kan kiezen om de
 ingrediënten te zien of de bereiding te zien.
+```python
+    ...
+    print("Voeg de eieren en de melk toe.")
 
-        ...
-        (*\textcolor{gray}{print("Voeg de eieren en de melk toe.")}*)
-
+keuze = int(input("1=ingrediënten, 2=bereiding, 0=stop: "))
+while keuze != 0:
+    if keuze == 1:
+        ingredientenTonen()
+    elif keuze == 2:
+        bereidingTonen()
+    else:
+        print("Verkeerde keuze.")
     keuze = int(input("1=ingrediënten, 2=bereiding, 0=stop: "))
-    while keuze != 0:
-        if keuze == 1:
-            ingredientenTonen()
-        elif keuze == 2:
-            bereidingTonen()
-        else:
-            print("Verkeerde keuze.")
-        keuze = int(input("1=ingrediënten, 2=bereiding, 0=stop: "))
-
+```
 Je bewaart en voert uit.
 
 ![image](images/hardhat.png) [België](/taken/belgie.html).
@@ -188,7 +188,6 @@ def ajuinSoep():
     print("----------")
     ingredienten()
     bereiding()
-
 
 ajuinSoep()
 ```

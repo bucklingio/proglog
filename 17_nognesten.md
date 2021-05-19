@@ -19,7 +19,7 @@ volwassenen het park bezochten en hoeveel kinderen het park bezochten.\
 De gebruiker tikt de leeftijd van elke bezoeker.\
 Als de leeftijd hoger of gelijk is aan 18, verhoog je de variabele voor
 het aantal volwassenen met 1.\
-Anders vehoog je de variabele voor het aantal kinderen met 1.\
+Anders verhoog je de variabele voor het aantal kinderen met 1.\
 Op het einde van de dag tikt de gebruiker `0` als leeftijd om het
 invoeren te stoppen.\
 Je toont dan het aantal volwassenen en het aantal kinderen.\

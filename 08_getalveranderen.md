@@ -8,7 +8,7 @@ Voorbeeld: Je hebt drie kinderen. Je onthoudt dit in een variabele
 Als nog een tweeling geboren wordt, verhoog je de variabele met twee.\
 Je creëert een nieuw bestand _tweeling.py_. Je voert
 volgende regels in:
-```
+```python
 aantalKinderen = 3
 aantalKinderen = aantalKinderen + 2
 print(aantalKinderen)
@@ -22,7 +22,7 @@ variabele stoppen.\
 Er bestaat ook een kortere schrijfwijze.\
 Je vervangt de regel `aantalKinderen = aantalKinderen + 2` door volgende
 regel:
-```
+```python
 ...
 aantalKinderen += 2
 ...

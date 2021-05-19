@@ -10,7 +10,7 @@ De functie `toonSteden` heeft een parameter `steden`. Dit is een list.\
 De functie itereert over de elementen in de list en toont elk element.\
 Je roept in het hoofdprogramma de procedure op met een list van steden
 in Vlaanderen.\
-Je roept daarna de functie nog eens op met en list vaan steden in
+Je roept daarna de functie nog eens op met en list van steden in
 Wallonië.\
 Je maakt een nieuw bestand _steden.py_ .
 

@@ -18,8 +18,9 @@ Je maakt een getal dat controleert of 5 groter is dan 3.
 1.  Je maakt een nieuw bestand _vergelijken.py_.
 
 2.  Je voegt volgende regel toe:
-
-        print(5 > 3)
+```python
+print(5 > 3)
+```
 
     Je kan op verschillende manieren vergelijken:
 
@@ -47,10 +48,11 @@ variabelen vergelijken.\
 Voorbeeld: Je vraagt je eigen lengte. Je vraagt de lengte van je
 buurman. Je vergelijkt beide lengtes.\
 Vervang de regel in je programma door volgende regels:
-
-    mijnLengte = float(input("Wat is jouw lengte?"))
-    lengteBuurman = float(input("Wat is de lengte van je buurman?"))
-    print(mijnLengte > lengteBuurman)
+```python
+mijnLengte = float(input("Wat is jouw lengte?"))
+lengteBuurman = float(input("Wat is de lengte van je buurman?"))
+print(mijnLengte > lengteBuurman)
+```
 
 Je bewaart en voert uit.\
 **Let op:** Als je de instructie `float()` niet gebruikt, gaat Python
@@ -70,10 +72,11 @@ Een string is 'kleiner' dan een tweede string als de string alfabetisch
 De string _appel_ is bijvoorbeeld 'kleiner' dan de string
 _peer_.\
 Je voegt volgende regel toe aan je programma:
-
-    ...
-    (*\textcolor{gray}{print(mijnLengte > lengteBuurman)}*)
-    print("limonade" < "bier")
+```python
+...
+print(mijnLengte > lengteBuurman)
+print("limonade" < "bier")
+```
 
 Je bewaart en voert uit. De tweede uitvoer is `False`.\
 Het is onwaar (False) dat de string _limonade_ alfabetisch

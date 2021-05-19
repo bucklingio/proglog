@@ -14,10 +14,11 @@ Concateneren van strings
 
 Je maakt een nieuw bestand _concateneren.py_. Je voert
 volgende regels in:
-
-    print("Een.")
-    print("Twee." + "Drie." + "Vier")
-    print("Vijf.")    
+```python
+print("Een.")
+print("Twee." + "Drie." + "Vier")
+print("Vijf.")    
+```
 
 Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
 
@@ -32,10 +33,11 @@ Concateneren van andere types
 -----------------------------
 
 Je voegt een nieuwe regel toe:
-
-    ...
-    (*\textcolor{gray}{print("Vijf.")}*)
-    print("Zes." + 7 + "Acht.")
+```python
+...
+print("Vijf.")
+print("Zes." + 7 + "Acht.")
+```
 
 Je bewaart en voert uit.\
 Je krijgt nu een foutmelding te zien:\
@@ -45,10 +47,11 @@ strings.\
 Je lost dit op door het getal om te zetten naar een string. Dit doe je
 met de functie `str()`.\
 Je verandert de laatste regel van je programma:
-
-    ...
-    (*\textcolor{gray}{print("Vijf.")}*)
-    print("Zes." + str(7) + "Acht.")
+```python
+...
+print("Vijf.")
+print("Zes." + str(7) + "Acht.")
+```
 
 Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
 
@@ -59,10 +62,11 @@ Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
 
 Om de uitvoer leesbaarder te maken, voegen we in de laatste regel
 spaties toe aan het einde van `"Zes."` en aan het begin van `"Acht."`:
-
-    ...
-    (*\textcolor{gray}{print("Vijf.")}*)
-    print("Zes. " + str(7) + " Acht.")
+```python
+...
+print("Vijf.")
+print("Zes. " + str(7) + " Acht.")
+```
 
 Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
 
@@ -81,10 +85,11 @@ hoeft dan ook geen extra spaties te zetten tussen de verschillende
 elementen.\
 [Let op:]{.ul} dit werkt enkel binnen de instructie `print()`!\
 Je verandert de laatste regel van je programma:
-
-        ...
-        (*\textcolor{gray}{print("Vijf.")}*)
-        print("Zes.", 7, "Acht.")
+```python
+...
+print("Vijf.")
+print("Zes.", 7, "Acht.")
+```
 
 Je bewaart en voert uit. Je krijgt dezelfde uitvoer te zien.
 

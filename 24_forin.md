@@ -27,4 +27,4 @@ naar voor te itereren.
 
 <a class="btn" href="./23_list.html">&#9194; List</a>
 <a class="btn" href="./index.html">&#9195; Index</a>
-<a class="btn" href="./25_toeveoegen.html">Toevoegen &#9193;</a>
+<a class="btn" href="./25_toevoegen.html">Toevoegen &#9193;</a>
