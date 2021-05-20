@@ -1,4 +1,4 @@
-Ga hier naar de volledige [cursus](./cursus.md)
+Download de volledige [cursus](/pdf/cursus.pdf) en [takenbundel](/pdf/takenbundel.pdf)
 
 1.  [Inleiding](./01_inleiding.md)
 2.  [Eerste programma](./02_eersteprogramma.md)
