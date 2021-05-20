@@ -78,13 +78,13 @@ Als je nu het programma uitvoert gebeurt er niets. Je programma voert de
 code van een functie niet automatisch uit.\
 Python voert functies enkel uit als jij ze oproept. Je voegt daarvoor
 volgende regels toe:
+```python
+    ...
+    print("Voeg de eieren en de melk toe.")
 
-        ...
-        (*\textcolor{gray}{print("Voeg de eieren en de melk toe.")}*)
-
-    ingredientenTonen()
-    bereidingTonen()
-
+ingredientenTonen()
+bereidingTonen()
+```
 Hou rekening met de volgorde: definieer eerst je functie voor je ze
 uitvoert.\
 Je programma ziet er nu zo uit (je ziet duidelijk da het programma twee

@@ -29,7 +29,7 @@ Als een getal cijfers na de komma bevat, gebruik je een punt als
 scheidingsteken.\
 Het getal 3,14 staat in je programma dus als `3.14` .\
 Je kan met getallen rekenen.\
-[Let op:]{.ul} als je een getal tussen aanhalingstekens zet, gaat Python
+**Let op:** als je een getal tussen aanhalingstekens zet, gaat Python
 dit behandelen als tekst.
 
 Een logische waarde is iets dat waar of onwaar is.\
