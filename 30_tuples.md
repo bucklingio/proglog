@@ -79,6 +79,15 @@ Je bewaart en probeert uit te voeren. Je krijgt een foutmelding:
 
 Je kan de inhoud van een tuple niet wijzigen.
 
+Tuple met 1 element
+-------------------
+
+Om het onderscheid te kunnen maken tussen een gewone waarde tussen haakjes en een tuple met één element, zet je altijd een komma na je element.
+
+```python
+werknemer = ("Joe Jackson",)
+```
+
 For in
 ------
 
