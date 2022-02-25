@@ -53,7 +53,7 @@ Je kan je bestand op twee manieren bewaren:
 
 -   Je kiest linksboven _File - Save_
 
--   Je gebruikt de toetsencombinatie _Ctrl + S_
+-   Je gebruikt de toetsencombinatie <kbd>Ctrl</kbd> + <kbd>S</kbd>.
 
 Je moet altijd je bestand bewaren voor je het uitvoert.
 
@@ -68,7 +68,7 @@ klikken.
 Je ziet nu de uitvoer van je programma in het Terminal venster
 onderaan.\
 **Tip:** Als je een programma voortijdig wil stoppen, of je programma
-loopt vast, kan je het altijd onderbreken met de toetsencombinatie _Ctrl + C_.
+loopt vast, kan je het altijd onderbreken met de toetsencombinatie <kbd>Ctrl</kbd> + <kbd>S</kbd>.
 
 Afwerken
 --------
