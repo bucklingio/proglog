@@ -17,7 +17,7 @@ informatie:
 Er bestaan drie basis-datatypes:
 
 De naam van een firma is een tekst. Tekst staat tussen enkele of dubbele
-aanhalingstekens (' of \").\
+aanhalingstekens (`'` of `"`).\
 Als een firma 'Frituur Frida heet', schrijf je dat in je programma als
 `"Frituur Frida"`.\
 Je kan met tekst niet rekenen (optellen, vermenigvuldigen, ...).\
