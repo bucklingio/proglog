@@ -4,7 +4,7 @@ Getallen
 Je begint met een eenvoudig programma dat het getal `3.14` toont:
 
 1.  Je creëert in VSCode een nieuw bestand met _File - New
-    File_ of _Ctrl + N_. Je noemt dit bestand
+    File_ of <kbd>Ctrl</kbd> + <kbd>N</kbd>. Je noemt dit bestand
     _rekenen.py_
 
 2.  Je voegt volgende regel toe:
