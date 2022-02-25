@@ -26,7 +26,7 @@ Je bewaart en voert uit. Je krijgt volgende uitvoer te zien:
         Twee.Drie.Vier.
         Vijf.
 
-[Let op]{.ul}: Als je spaties wil weergeven, ga je deze zelf in je
+<u>Let op:</u> Als je spaties wil weergeven, ga je deze zelf in je
 strings moeten toevoegen.
 
 Concateneren van andere types
@@ -83,7 +83,7 @@ verschillende elementen na elkaar op het scherm te tonen.\
 Je hoeft dan getallen en booleans niet om te zetten naar string. Je
 hoeft dan ook geen extra spaties te zetten tussen de verschillende
 elementen.\
-[Let op:]{.ul} dit werkt enkel binnen de instructie `print()`!\
+<u>Let op:</u> dit werkt enkel binnen de instructie `print()`!\
 Je verandert de laatste regel van je programma:
 ```python
 ...
