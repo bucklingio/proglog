@@ -31,10 +31,10 @@ Je bewaart en voert uit.
 
 -   Als je een positieve temperatuur intikt toont je programma niets.
 
--   Als je een temperatuur intikt lager dan -40 zie je `Blijf thuis`.
+-   Als je een temperatuur intikt lager dan -40 zie je `Blijf thuis.`.
 
 -   Als je een temperatuur intikt tussen 0 en -40 zie je
-    `Doe een dikke jas aan`.
+    `Doe een dikke jas aan.`.
 
 ![image](images/hardhat.png) [VDAB](/taken/vdab.html)\
 ![image](images/hardhat.png) [Grootste](/taken/grootste.html)\

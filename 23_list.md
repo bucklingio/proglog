@@ -125,7 +125,7 @@ werknemers[index] = nieuweWerknemer
 print(werknemers[index])
 ```
 
-![image](images/hardhat.png) [Geluksgetallen](/taken/geluksgetallen.html).
+![image](images/hardhat.png) [Geluksgetallen](/taken/geluksgetallen.html).\
 ![image](images/hardhat.png) [Random list](/taken/randomlist.html).
 
 <a class="btn" href="./22_functiesmetreturn.html">&#9194; Functies met return</a>

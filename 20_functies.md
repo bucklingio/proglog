@@ -21,7 +21,10 @@ Het is dan niet meer haalbaar deze opdrachten in één geheel te plaatsen.
 
 De oplossing: je programma opsplitsen in kleinere delen. Men noemt die
 delen subroutines.\
-Voorbeeld: een webshop.
+In Python (en veel andere talen) noemen we deze subroutines *functies*.\
+
+Voorbeeld 1: een webshop
+----------------------
 
 -   De gebruiker voegt producten toe aan zijn winkelmandje. Je plaatst
     de code die je daarvoor nodig hebt in een subroutine met de naam\
@@ -39,8 +42,9 @@ Je programma voert de code in een subroutine niet automatisch uit.\
 Je programma voert de code enkel uit als jij de subroutine oproept.\
 Jij beslist op welke plaats in je programma je een subroutine oproept.\
 Je kan een subroutine ook *meerdere keren* oproepen.\
-In Python (en veel andere talen) noemen we deze subroutines *functies*.\
-Voorbeeld: een programma toont hoe je pannenkoeken bakt.\
+
+Voorbeeld: een programma toont hoe je pannenkoeken bakt
+-------------------------------------------------------
 Als je nadenkt kom je tot de conclusie dat het programma twee kleinere
 delen bevat:
 
@@ -138,6 +142,9 @@ Je bewaart en voert uit.
 
 ![image](images/hardhat.png) [België](/taken/belgie.html).
 
+`if` gebruiken in een functie
+-----------------------------
+
 Je kan in een functie alle instructies gebruiken die je al kent.\
 Je maakt een voorbeeld. De gebruiker tikt in het hoofdprogramma een
 getal.\
@@ -160,6 +167,10 @@ evenOneven()
 ```
 
 Je bewaart en voert uit.\
+
+Een functie in een andere functie oproepen
+------------------------------------------
+
 Je kan in een functie een andere functie oproepen.\
 Je maakt een voorbeeld. Je roept in het hoofdprogramma de functie
 `ajuinSoep()` op.\

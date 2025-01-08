@@ -21,7 +21,7 @@ Je maakt als voorbeeld een functie met de naam `grootste()`.\
 De functie heeft twee parameters, beide zijn getallen.\
 De functie geeft als resultaat het grootste van de twee getallen terug.\
 Het hoofdprogramma beslist wat er met dit resultaat gebeurt.\
-Je maakt een nieuw bestand _grootste.py_:
+Je maakt een nieuw bestand _functiegrootste.py_:
 
 ```python
 def grootste(getal1, getal2):

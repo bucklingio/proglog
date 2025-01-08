@@ -1,7 +1,7 @@
 For in
 ======
 
-De instructie `for ... in` leest in een iteratie één per één alle list
+De instructie `for in` leest in een iteratie één per één alle list
 elementen.\
 Je leert deze instructie kennen met een nieuw programma. Je maakt een
 nieuw bestand _for-in.py_
@@ -23,7 +23,6 @@ naar voor te itereren.
 
 ![image](images/hardhat.png) [List totaal](/taken/listtotaal.html).\
 ![image](images/hardhat.png) [List even oneven](/taken/listevenoneven.html).\
-![image](images/hardhat.png) [List wijzigen](/taken/listwijzigen.html)
 
 <a class="btn" href="./23_list.html">&#9194; List</a>
 <a class="btn" href="./index.html">&#9195; Index</a>

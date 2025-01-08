@@ -17,7 +17,7 @@ else:
 print("Einde van het programma.")
 ```
 
-Let goed op de indentering. `else` staat weer naar links, en je `print`
+Let goed op de indentering: `else` staat weer naar links, en je `print`
 weer naar rechts.\
 Je bewaart en voert uit. Enkel als je een temperatuur tikt groter dan 0
 zie je de tekst `Een lichte jas volstaat.`
