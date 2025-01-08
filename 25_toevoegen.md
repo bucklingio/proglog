@@ -4,7 +4,8 @@ Elementen toevoegen aan lists
 Je kan in Python makkelijk elementen toevoegen aan een list.\
 Lists zijn in Python dynamisch: ze hebben geen vaste lengte.\
 Je gebruikt de instructie `append()` om elementen toe te voegen aan een
-list.\
+list.
+
 Voorbeeld: Je maakt een list van 20 willekeurige getallen tussen 1 en
 100.\
 Python heeft geen ingebouwde instructies voor het genereren van
@@ -47,7 +48,7 @@ for i in range(5):
 for voornaam in voornamen:
     print(voornaam)
 ```
-Je bewaart en voert uit.\
+Je bewaart en voert uit.
 
 Je gebruikt de functie `len()` om het aantal elementen van de list op te vragen.\
 Je maakt een derde voorbeeld. Je maakt een lege list voornamen. De gebruiker tikt
@@ -60,14 +61,14 @@ Je maakt een nieuw bestand _listvoornamen.py_:
 ```python
 naam = input("Geef voornaam:")
 while naam != "STOP":
-    voornamen.append(naam)
-    naam = input("Geef voornaam:")
+    voornamen.append(naam)
+    naam = input("Geef voornaam:")
 
 print("Aantal voornamen", len(voornamen))
 for voornaam in voornamen:
-    print(voornaam)
+    print(voornaam)
 ```
-Je bewaart en voert uit.\
+Je bewaart en voert uit.
 
 ![image](images/hardhat.png) [List wijzigen](/taken/listwijzigen.html)\
 ![image](images/hardhat.png) [Tafel list](/taken/tafellist.html).\
