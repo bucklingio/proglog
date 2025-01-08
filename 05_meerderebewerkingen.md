@@ -11,7 +11,7 @@ Je programma voert sommige bewerkingen uit *voor* andere bewerkingen.
 
 2.  Daarna modulo bewerkingen (`%`).
 
-3.  Daarna vermenigvuldigen en delen (`*` en `/`).
+3.  Daarna vermenigvuldigen en delen (`*`, `/` en `//`).
 
 4.  Tenslotte optellen en aftrekken (`+` en `-`).
 

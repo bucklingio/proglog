@@ -60,7 +60,7 @@ Je moet altijd je bestand bewaren voor je het uitvoert.
 Uitvoeren
 ---------
 
-Je voert je progamma uit door op de groene driehoek rechtsboven te
+Je voert je progamma uit door op de driehoek rechtsboven te
 klikken.
 
 ![image](images/run-in-terminal.png)
@@ -68,7 +68,7 @@ klikken.
 Je ziet nu de uitvoer van je programma in het Terminal venster
 onderaan.\
 **Tip:** Als je een programma voortijdig wil stoppen, of je programma
-loopt vast, kan je het altijd onderbreken met de toetsencombinatie <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+loopt vast, kan je het altijd onderbreken met de toetsencombinatie <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 Afwerken
 --------

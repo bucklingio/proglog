@@ -18,7 +18,7 @@ Er bestaan drie basis-datatypes:
 
 De naam van een firma is een tekst. Tekst staat tussen enkele of dubbele
 aanhalingstekens (`'` of `"`).\
-Als een firma 'Frituur Frida heet', schrijf je dat in je programma als
+Als een firma 'Frituur Frida' heet, schrijf je dat in je programma als
 `"Frituur Frida"`.\
 Je kan met tekst niet rekenen (optellen, vermenigvuldigen, ...).\
 We gebruiken in Python het woord _string_ voor tekst.

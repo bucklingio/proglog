@@ -29,6 +29,13 @@ een hoofdletter. Je gebruikt geen spaties.\
 Voorbeelden: `aantalKinderen`, `grootsteWedde`,
 `kortingVoorGroteGezinnen`.
 
+Opmerking
+---------
+
+Python heeft verschillende sleutelwoorden met een speciale betekenis. Deze woorden zijn gereserveerd voor de taal.\
+Je mag deze woorden niet gebruiken als naam van een variabele.\
+Je ken al een paar woorden: `print`, `True`, en `False`. Je mag geen variabele met de naam `print`, `True` of `False` maken. 
+
 Voorbeeld
 ---------
 

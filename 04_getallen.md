@@ -22,27 +22,41 @@ Je moet berekenen hoeveel de klant moet betalen voor de producten in
 zijn winkelmandje.\
 Je kan in Python (onder andere) deze standaardbewerkingen gebruiken:
 
-1.  optellen
+1.  optellen `+`
 
-2.  aftrekken
+2.  aftrekken `-`
 
-3.  vermenigvuldigen
+3.  vermenigvuldigen `*`
 
-4.  delen
+4.  delen `/`
 
-5.  machtsverheffing
+5.  machtsverheffing `**`
 
 Je breidt je programma uit. Je toont het resultaat van 5 x 3.\
 Je voegt daarvoor volgende regel toe aan je programma:
 ```python
 print(5 * 3)
 ```
-Je programma toont `3.14` en daaronder `15` .
+Je programma toont `3.14` en daaronder `15`.
+
+Floor division of gehele deling
+-------------------------------
+
+Python bevat ook een gehele deling. Je schrijft deze met `//`.\
+Het resultaat van een gehele deling wordt afgerond naar het kleinere gehele getal.\
+Het resultaat van `13 // 5` is 2.\
+13 gedeeld door 5 is 2,6. 2,6 wordt afgerond naar het kleinere geheel getal 2.\
+-13 gedeeld door 5 is -2,6. -2,6 wordt afgerond naar het kleinere geheel getal -3.\
+Je voegt volgende regels toe aan je programma:
+```python
+print(13 // 5)
+print(-13 // 5)
+```
 
 Modulo
 ------
 
-Python bevat ook een modulobewerking. Je schrijft deze met `%` .\
+Python bevat ook een modulobewerking. Je schrijft deze met `%`.\
 De modulo is de rest na de gehele deling van twee getallen. Als je 13
 deelt door 5 is de rest 3.\
 13 gedeeld door 5 is 2,6. Dit is 2 als geheel getal. De rest van de
@@ -57,6 +71,8 @@ Je programma ziet er nu zo uit:
 ```python
 print(3.14)
 print(5 * 3)
+print(13 // 5)
+print(-13 // 5)
 print(13 % 5)
 ```
 
