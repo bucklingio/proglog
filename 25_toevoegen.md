@@ -14,6 +14,7 @@ Je gaat hiervoor een aparte module importeren: `random`.\
 `import` instructies zet je altijd bovenaan je programma.\
 Je gebruikt de instructie `random.randint()` uit de module `random` voor
 het genereren van willekeurige gehele getallen.\
+
 Je begint met een lege list `getallen`.\
 Je genereert een willekeurig getal, en voegt dit toe aan de list.\
 Je herhaalt dit 20 keer via de `for` instructie. Je toont daarna de
@@ -32,7 +33,7 @@ for teller in range(20):
 for getal in getallen:
     print(getal)
 ```
-Je bewaart en voert uit.\
+Je bewaart en voert uit.
 
 Je maakt een tweede voorbeeld. Je maakt een lege list `voornamen`. De
 gebruiker tikt 5 namen. Je vult daarmee de elementen van de list.\
